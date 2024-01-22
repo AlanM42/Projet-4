@@ -4,14 +4,14 @@
     height: 1500px;
     margin: 0;
   }
-  .h1 {
+  h1 {
     font-family: "Shrikhand", sans-serif;
     display: flex;
     width: 100%;
-  }
-  .h1 .h1_logo {
     font-size: 50px;
-    margin: 20px 0 0 153px;
+  }
+  h1 .h1_titre {
+    margin: 20px 20px 20px 153px;
   }
   p h2 {
     font-family: "Roboto";

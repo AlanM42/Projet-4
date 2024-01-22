@@ -5,13 +5,14 @@
     margin: 0;
   }
 
-  .h1 {
+  h1 {
     font-family: "Shrikhand", sans-serif;
     display: flex;
     width: 100%;
-    .h1_logo {
-      font-size: 50px;
-      margin: 20px 0 0 153px;
+    font-size: 50px;
+
+    .h1_titre {
+      margin: 20px 20px 20px 153px;
     }
   }
 
