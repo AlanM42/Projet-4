@@ -91,6 +91,21 @@
     justify-content: space-evenly;
   }
   .troisieme_div {
+    width: 100%;
+    height: 400px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .div_fonction {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+    padding: 0px 0px 0px 400px;
+    background-color: rgb(241, 241, 241);
   }
 }/*# sourceMappingURL=mobile.css.map */
