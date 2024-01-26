@@ -1,7 +1,7 @@
 @media screen and (max-width: 767px) {
   body {
     width: 100%;
-    height: 1500px;
+    height: 2500px;
     margin: 0;
   }
   h1 {
@@ -25,12 +25,28 @@
     text-align: center;
     margin: 10px 0px 0px 0px;
   }
+  .h2_espace {
+    padding: 75px 0px 50px 50px;
+    display: flex;
+    font-size: 50px;
+    width: 65%;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+  }
   p {
     font-family: "Roboto", sans-serif;
   }
   .p_deuxieme-div {
     font-size: 30px;
     width: 75%;
+  }
+  .a {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+  }
+  .a-1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 35px;
   }
   .p_deuxieme-div-header {
     font-size: 35px;
@@ -62,12 +78,12 @@
     width: 100%;
     height: 100px;
     margin: 0;
-    background-color: rgb(226, 226, 226);
+    background-color: #e2e2e2;
     font-family: "Roboto", sans-serif;
     font-size: 30px;
-    box-shadow: -1px 5px 5px 0px rgba(41, 40, 40, 0.42) inset;
-    -webkit-box-shadow: -1px 5px 5px 0px rgba(0, 0, 0, 0.42) inset;
-    -moz-box-shadow: -1px 9px 5px 0px rgba(0, 0, 0, 0.42) inset;
+    box-shadow: -1px 5px 5px 0px gray inset;
+    -webkit-box-shadow: -1px 5px 5px 0px gray inset;
+    -moz-box-shadow: -1px 9px 5px 0px gray inset;
   }
   .deuxieme_div {
     margin: 0px;
@@ -76,36 +92,80 @@
     height: 500px;
     display: flex;
     flex-direction: column;
-    background-color: rgb(241, 241, 241);
-    box-shadow: -1px 5px 5px 0px rgba(133, 129, 129, 0.42) inset;
-    -webkit-box-shadow: -1px 5px 5px 0px rgba(0, 0, 0, 0.42) inset;
-    -moz-box-shadow: -1px 9px 5px 0px rgba(0, 0, 0, 0.42) inset;
+    background-color: #f2f2f2;
+    box-shadow: -1px 5px 5px 0px gray inset;
+    -webkit-box-shadow: -1px 5px 5px 0px gray inset;
+    -moz-box-shadow: -1px 9px 5px 0px gray inset;
     align-items: center;
     gap: 10px;
   }
   .section_fonctionnement {
     width: 100%;
-    height: 550px;
+    height: 750px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding: 0px 0px 75px 0px;
   }
   .troisieme_div {
     width: 100%;
-    height: 400px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    gap: 35px;
+    box-shadow: black;
   }
   .div_fonction {
-    width: 100%;
+    width: 75%;
+    height: 350px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 20px;
-    font-size: 25px;
-    padding: 0px 0px 0px 400px;
-    background-color: rgb(241, 241, 241);
+    gap: 50px;
+    padding-left: 75px;
+    font-size: 35px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 30px;
+    box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+  }
+  .fa-solid.fa-store {
+    color: #9356dc;
+  }
+  .fa-solid.fa-list-ul {
+    color: gray;
+  }
+  .fa-solid.fa-mobile-screen-button {
+    color: gray;
+  }
+  .section_restaurants {
+    width: 100%;
+    height: 2500px;
+    background-color: #f2f2f2;
+  }
+  .carte_restaurant {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 500px;
+    background-color: white;
+    border-radius: 25px;
+  }
+  .div_restaurant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  img {
+    width: 100%;
+    height: 70%;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }/*# sourceMappingURL=mobile.css.map */
