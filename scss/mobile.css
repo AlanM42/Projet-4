@@ -9,11 +9,22 @@
     display: flex;
     width: 100%;
     font-size: 50px;
-  }
-  h1 .h1_titre {
-    margin: 20px 20px 20px 153px;
+    padding: 30px 0px 30px 0px;
+    margin: 0;
+    justify-content: space-around;
   }
   p h2 {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+  }
+  .premiere_div {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    background-color: rgb(235, 230, 230);
   }
 }/*# sourceMappingURL=mobile.css.map */
