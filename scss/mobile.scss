@@ -58,6 +58,12 @@
     width: 50%;
   }
 
+  h6 {
+    font-family: "Shrikhand", sans-serif;
+    font-size: 40px;
+    margin: 0;
+  }
+
   img {
     width: 100%;
     height: 70%;
@@ -274,31 +280,57 @@
     font-size: 45px;
   }
 
+  .fa-regular.fa-heart {
+    font-size: 45px;
+    color: rgb(231, 114, 218);
+    background-color: linear-gradient(
+      180deg,
+      rgba(231, 114, 218, 1) 0%,
+      rgba(177, 95, 221, 1) 60%
+    );
+  }
+
+  .fa-solid.fa-heart {
+    font-size: 45px;
+  }
+
+  .fa-solid.fa-heart {
+    font-size: 45px;
+    color: rgb(231, 114, 218);
+    background-color: linear-gradient(
+      180deg,
+      rgba(231, 114, 218, 1) 0%,
+      rgba(177, 95, 221, 1) 60%
+    );
+  }
+
+  /* background: rgb(231, 114, 218);
+  background: linear-gradient(
+    180deg,
+    rgba(231, 114, 218, 1) 0%,
+    rgba(177, 95, 221, 1) 60%
+  ); */
+
   /*Section Footer*/
 
   .section_footer {
     background-color: #353535;
     color: #ffffff;
     font-size: 29px;
-    padding: 50px 0px 0px 30px;
+    padding: 40px 0px 0px 30px;
     margin: 0px 0px 0px 0px;
-  }
-
-  h6 {
-    font-family: "Shrikhand", sans-serif;
-    font-size: 40px;
-    margin: 0;
   }
 
   .section_footer-1 {
     display: flex;
+    margin: 0px 0px 30px 0px;
   }
 
   .section_footer-2 {
     display: flex;
     align-items: center;
-    gap: 30px;
-    margin: 0px;
+    gap: 32px;
+    margin: 0px 0px;
   }
 
   .section_footer-3 {
@@ -306,5 +338,9 @@
     align-items: center;
     gap: 20px;
     margin: 0px;
+  }
+
+  .section_footer-p {
+    margin: 8px 0px 8px 0px;
   }
 }
