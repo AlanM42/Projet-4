@@ -204,4 +204,17 @@
   .fa-regular.fa-heart {
     font-size: 45px;
   }
+  .numérotation {
+    display: flex;
+    justify-content: space-around;
+    width: 50px;
+    border-radius: 50px;
+    height: 50px;
+    font-size: 40px;
+    background: #9356dc;
+    border-style: none;
+    color: white;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px -100px;
+  }
 }/*# sourceMappingURL=mobile.css.map */
