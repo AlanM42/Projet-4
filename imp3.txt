@@ -1,0 +1,79 @@
+  .section_restaurants {
+    width: 100%;
+    height: 2500px;
+    background-color: #f2f2f2;
+  }
+
+  .carte_restaurant {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 500px;
+    background-color: white;
+    border-radius: 25px;
+  }
+
+  .div_restaurant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  img {
+    width: 80%;
+    height: 70%;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    object-fit: cover;
+  }
+
+  .section_fonctionnement {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0px 0px 75px 0px;
+  }
+
+  .troisieme_div {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 35px;
+    box-shadow: black;
+  }
+
+  .div_fonction {
+    width: 75%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    padding-left: 75px;
+    font-size: 35px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 30px;
+    box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+  }
+
+  .fa-solid.fa-store {
+    color: #9356dc;
+  }
+
+  .fa-solid.fa-list-ul {
+    color: gray;
+  }
+
+  .fa-solid.fa-mobile-screen-button {
+    color: gray;
+  }
+
+  /*section restaurant*/

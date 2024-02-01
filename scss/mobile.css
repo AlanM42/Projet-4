@@ -26,9 +26,8 @@
     box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
     -webkit-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
     -moz-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
-    background: #ee1fd5;
-    background: linear-gradient(180deg, #ee1fd5 50%, #a514f6 100%);
-    background: -moz-linear-gradient(180deg, #ee1fd5 50%, #a514f6 100%);
+    background: rgb(231, 114, 218);
+    background: linear-gradient(180deg, rgb(231, 114, 218) 0%, rgb(177, 95, 221) 60%);
     border-style: none;
     color: white;
     margin: 20px 0px 20px 0px;
