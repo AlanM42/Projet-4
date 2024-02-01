@@ -8,7 +8,7 @@
   /*Géneral*/
   a {
     font-family: "Roboto", sans-serif;
-    font-size: 25px;
+    font-size: 29px;
     font-style: none;
   }
   .a {
@@ -148,14 +148,31 @@
     -webkit-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
     -moz-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
   }
+  .numérotation {
+    display: flex;
+    justify-content: space-around;
+    width: 50px;
+    border-radius: 50px;
+    height: 50px;
+    font-size: 30px;
+    background: #9356dc;
+    border-style: none;
+    color: white;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px -100px;
+    align-items: center;
+  }
   .fa-solid.fa-mobile-screen-button {
     color: gray;
+    font-size: 38px;
   }
   .fa-solid.fa-list-ul {
     color: gray;
+    font-size: 38px;
   }
   .fa-solid.fa-store {
     color: #9356dc;
+    font-size: 38px;
   }
   /*section restaurant*/
   .section_restaurants {
@@ -176,6 +193,22 @@
     height: 450px;
     background-color: white;
     border-radius: 25px;
+    position: relative;
+  }
+  .Posi_Abso {
+    height: 60px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    position: absolute;
+    background-color: #99e2d0;
+    color: #008766;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: 25px 0px 0px 515px;
+    border-radius: 5px;
   }
   .contenu_carte_restaurant {
     width: 100%;
@@ -198,23 +231,10 @@
     justify-content: flex-end;
   }
   .ancrage_gras {
-    font-size: 30px;
+    font-size: 32px;
     font-weight: bold;
   }
   .fa-regular.fa-heart {
     font-size: 45px;
-  }
-  .numérotation {
-    display: flex;
-    justify-content: space-around;
-    width: 50px;
-    border-radius: 50px;
-    height: 50px;
-    font-size: 40px;
-    background: #9356dc;
-    border-style: none;
-    color: white;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px -100px;
   }
 }/*# sourceMappingURL=mobile.css.map */
