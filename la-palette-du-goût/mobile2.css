@@ -55,8 +55,6 @@
   img {
     width: 100%;
     height: 70%;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -66,5 +64,14 @@
   .p_deuxieme-div {
     font-size: 30px;
     width: 75%;
+  }
+  /*Header*/
+  header {
+    display: flex;
+    align-items: baseline;
+  }
+  .fa-solid.fa-arrow-left {
+    font-size: 50px;
+    margin: 0px 0px 0px 50px;
   }
 }/*# sourceMappingURL=mobile2.css.map */
