@@ -68,10 +68,12 @@
     width: 100%;
     height: 70%;
     object-fit: cover;
+    position: relative;
   }
 
   p {
     font-family: "Roboto", sans-serif;
+    margin: 10px;
   }
 
   .p_deuxieme-div {
@@ -89,5 +91,28 @@
   .fa-solid.fa-arrow-left {
     font-size: 50px;
     margin: 0px 0px 0px 50px;
+  }
+
+  .fa-solid.fa-arrow-left:active {
+    text-decoration: none;
+    color: black;
+  }
+
+  /*Main*/
+
+  .div_fonction {
+    width: 85%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding-left: 75px;
+    font-size: 35px;
+    background-color: #f6f6f6;
+    border-radius: 30px;
+    box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
   }
 }
