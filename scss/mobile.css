@@ -23,7 +23,7 @@
   button {
     width: 50%;
     border-radius: 50px;
-    height: 90px;
+    height: auto;
     font-size: 28px;
     box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
     -webkit-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
@@ -32,13 +32,15 @@
     background: linear-gradient(180deg, rgb(231, 114, 218) 0%, rgb(177, 95, 221) 60%);
     border-style: none;
     color: white;
-    margin: 20px 0px 20px 0px;
+    margin: 2.7% 0% 2.7% 0%;
+    padding: 3.5% 0% 3.5% 0%;
   }
   h1 {
     font-family: "Shrikhand", sans-serif;
     display: flex;
     width: 100%;
     font-size: 55px;
+    padding: 4% 0% 4% 0%;
     margin: 0;
     justify-content: space-around;
   }
@@ -74,7 +76,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100px;
+    height: 100%;
     margin: 0;
     background-color: #e2e2e2;
     font-family: "Roboto", sans-serif;
@@ -85,9 +87,9 @@
   }
   .deuxieme_div {
     margin: 0px;
-    padding: 30px 0px 0px 0px;
+    padding: 7% 0px 7% 0px;
     width: 100%;
-    height: 500px;
+    height: auto;
     display: flex;
     flex-direction: column;
     background-color: #f6f6f6;
@@ -102,7 +104,7 @@
     font-size: 50px;
     width: 65%;
     text-align: center;
-    margin: 10px 0px 0px 0px;
+    margin: 1.4% 0px 0px 0px;
   }
   .p_deuxieme-div-header {
     font-size: 35px;
@@ -121,12 +123,12 @@
     padding: 0px 0px 75px 0px;
   }
   .h2_espace {
-    padding: 75px 0px 50px 50px;
+    padding: 9.8% 0% 6.6% 6.6%;
     display: flex;
     font-size: 50px;
     width: 65%;
     text-align: center;
-    margin: 10px 0px 0px 0px;
+    margin: 0;
   }
   .troisieme_div {
     width: 100%;
@@ -140,12 +142,13 @@
   }
   .div_fonction {
     width: 75%;
-    height: 350px;
+    height: 50%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 50px;
-    padding-left: 75px;
+    -moz-column-gap: 7%;
+         column-gap: 7%;
+    padding-left: 9.8%;
     font-size: 35px;
     background-color: #f6f6f6;
     border-radius: 30px;
@@ -182,14 +185,15 @@
   /*section restaurant*/
   .section_restaurants {
     width: 100%;
-    height: 2300px;
+    height: auto;
     background-color: #f6f6f6;
+    padding: 2% 0% 15% 0%;
   }
   .div_restaurant {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+    row-gap: 50px;
   }
   .carte_restaurant {
     display: flex;
@@ -201,8 +205,8 @@
     position: relative;
   }
   .Posi_Abso {
-    height: 60px;
-    width: 150px;
+    height: 14%;
+    width: 22%;
     display: flex;
     justify-content: center;
     font-size: 30px;
@@ -212,7 +216,7 @@
     align-items: center;
     justify-content: center;
     padding: 0px 0px 0px 0px;
-    margin: 25px 0px 0px 515px;
+    margin: 4% 0px 0px 74%;
     border-radius: 5px;
   }
   .contenu_carte_restaurant {
