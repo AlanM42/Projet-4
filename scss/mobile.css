@@ -10,7 +10,6 @@
   a {
     font-family: "Roboto", sans-serif;
     font-size: 29px;
-    font-style: none;
   }
   .a {
     font-family: "Roboto", sans-serif;
@@ -115,8 +114,8 @@
   }
   /*Section fonctionnement*/
   .section_fonctionnement {
-    width: 100%;
-    height: 750px;
+    width: auto;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -132,7 +131,7 @@
   }
   .troisieme_div {
     width: 100%;
-    height: 450px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -142,13 +141,13 @@
   }
   .div_fonction {
     width: 75%;
-    height: 50%;
+    height: 150%;
     display: flex;
     flex-direction: row;
     align-items: center;
     -moz-column-gap: 7%;
          column-gap: 7%;
-    padding-left: 9.8%;
+    padding: 3% 0% 3% 9.8%;
     font-size: 35px;
     background-color: #f6f6f6;
     border-radius: 30px;
@@ -167,7 +166,7 @@
     border-style: none;
     color: white;
     padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px -100px;
+    margin: 0px 0px 0px -17.4%;
     align-items: center;
   }
   .fa-solid.fa-mobile-screen-button {
@@ -199,7 +198,7 @@
     display: flex;
     flex-direction: column;
     width: 90%;
-    height: 450px;
+    height: 28em;
     background-color: white;
     border-radius: 25px;
     position: relative;
@@ -228,14 +227,14 @@
   }
   .contenu_carte_restaurant-1 {
     display: flex;
-    width: 50%;
+    width: 70%;
     flex-direction: column;
     gap: 6px;
     padding: 30px 0px 0px 20px;
   }
   .contenu_carte_restaurant-2 {
     display: flex;
-    width: 50%;
+    width: 30%;
     padding: 35px 55px 0px 0px;
     justify-content: flex-end;
   }
@@ -243,6 +242,7 @@
     font-size: 32px;
     font-weight: bold;
     text-decoration: none;
+    color: black;
   }
   .fa-regular.fa-heart {
     font-size: 45px;
@@ -250,7 +250,11 @@
   .fa-regular.fa-heart {
     font-size: 45px;
     color: rgb(231, 114, 218);
-    background-color: linear-gradient(180deg, rgb(231, 114, 218) 0%, rgb(177, 95, 221) 60%);
+    /*background-color: linear-gradient(
+      180deg,
+      rgba(231, 114, 218, 1) 0%,
+      rgba(177, 95, 221, 1) 60%
+    );*/
   }
   .fa-solid.fa-heart {
     font-size: 45px;
@@ -258,7 +262,11 @@
   .fa-solid.fa-heart {
     font-size: 45px;
     color: rgb(231, 114, 218);
-    background-color: linear-gradient(180deg, rgb(231, 114, 218) 0%, rgb(177, 95, 221) 60%);
+    /*background-color: linear-gradient(
+      180deg,
+      rgba(231, 114, 218, 1) 0%,
+      rgba(177, 95, 221, 1) 60%
+    );*/
   }
   /* background: rgb(231, 114, 218);
   background: linear-gradient(
@@ -293,5 +301,620 @@
   }
   .section_footer-p {
     margin: 8px 0px 0px 0px;
+  }
+}
+/*Adaptation*/
+@media screen and (max-width: 675px) {
+  h1 {
+    font-family: "Shrikhand", sans-serif;
+    display: flex;
+    width: 100%;
+    font-size: 50px;
+    padding: 4% 0% 4% 0%;
+    margin: 0;
+    justify-content: space-around;
+  }
+  .premiere_div {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #e2e2e2;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    box-shadow: -1px 5px 5px 0px gray inset;
+    -webkit-box-shadow: -1px 5px 5px 0px gray inset;
+    -moz-box-shadow: -1px 9px 5px 0px gray inset;
+  }
+  .h2_deuxieme-div {
+    display: flex;
+    font-size: 45px;
+    width: 65%;
+    text-align: center;
+    margin: 1.4% 0px 0px 0px;
+  }
+  .p_deuxieme-div-header {
+    font-size: 30px;
+    width: 90%;
+    font-weight: lighter;
+    text-align: center;
+    margin: 30px 0px 20px 0px;
+  }
+  button {
+    width: 50%;
+    border-radius: 50px;
+    height: auto;
+    font-size: 23px;
+    box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+    background: rgb(231, 114, 218);
+    background: linear-gradient(180deg, rgb(231, 114, 218) 0%, rgb(177, 95, 221) 60%);
+    border-style: none;
+    color: white;
+    margin: 2.7% 0% 2.7% 0%;
+    padding: 3.5% 0% 3.5% 0%;
+  }
+  .h2_espace {
+    padding: 9.8% 0% 6.6% 6.6%;
+    display: flex;
+    font-size: 45px;
+    width: 65%;
+    text-align: center;
+    margin: 0;
+  }
+  .div_fonction {
+    width: 75%;
+    height: 150%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    -moz-column-gap: 7%;
+    column-gap: 7%;
+    padding: 3% 0% 3% 9.8%;
+    font-size: 30px;
+    background-color: #f6f6f6;
+    border-radius: 30px;
+    box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+  }
+  .numérotation {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    border-radius: 50px;
+    height: auto;
+    font-size: 25px;
+    background: #9356dc;
+    border-style: none;
+    color: white;
+    padding: 2.22% 3.97% 2.22% 3.97%;
+    margin: 0px 0px 0px -17.4%;
+    align-items: center;
+  }
+  .Posi_Abso {
+    height: 14%;
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    position: absolute;
+    background-color: #99e2d0;
+    color: #008766;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: 4% 0px 0px 74%;
+    border-radius: 5px;
+  }
+  .carte_restaurant {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 27em;
+    background-color: white;
+    border-radius: 25px;
+    position: relative;
+  }
+  .ancrage_gras {
+    font-size: 27px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  a {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+  }
+  .fa-regular.fa-heart {
+    font-size: 40px;
+    color: rgb(231, 114, 218);
+    background-color: linear-gradient(180deg, rgb(231, 114, 218) 0%, rgb(177, 95, 221) 60%);
+  }
+  .fa-solid.fa-heart {
+    font-size: 40px;
+    color: rgb(231, 114, 218);
+  }
+  .section_footer {
+    background-color: #353535;
+    color: #ffffff;
+    font-size: 31px;
+    padding: 40px 0px 30px 30px;
+    margin: 0px 0px 0px 0px;
+  }
+}
+@media screen and (max-width: 575px) {
+  h1 {
+    font-family: "Shrikhand", sans-serif;
+    display: flex;
+    width: 100%;
+    font-size: 45px;
+    padding: 4% 0% 4% 0%;
+    margin: 0;
+    justify-content: space-around;
+  }
+  .premiere_div {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #e2e2e2;
+    font-family: "Roboto", sans-serif;
+    font-size: 27px;
+    box-shadow: -1px 5px 5px 0px gray inset;
+    -webkit-box-shadow: -1px 5px 5px 0px gray inset;
+    -moz-box-shadow: -1px 9px 5px 0px gray inset;
+  }
+  .h2_deuxieme-div {
+    display: flex;
+    font-size: 37px;
+    width: 65%;
+    text-align: center;
+    margin: 1.4% 0px 0px 0px;
+  }
+  .p_deuxieme-div-header {
+    font-size: 25px;
+    width: 90%;
+    font-weight: lighter;
+    text-align: center;
+    margin: 30px 0px 20px 0px;
+  }
+  button {
+    width: 50%;
+    border-radius: 50px;
+    height: auto;
+    font-size: 21px;
+    box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+    background: rgb(231, 114, 218);
+    background: linear-gradient(180deg, rgb(231, 114, 218) 0%, rgb(177, 95, 221) 60%);
+    border-style: none;
+    color: white;
+    margin: 2.7% 0% 2.7% 0%;
+    padding: 3.5% 0% 3.5% 0%;
+  }
+  .h2_espace {
+    padding: 9.8% 0% 6.6% 6.6%;
+    display: flex;
+    font-size: 40px;
+    width: 65%;
+    text-align: center;
+    margin: 0;
+  }
+  .div_fonction {
+    width: 75%;
+    height: 150%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    -moz-column-gap: 7%;
+    column-gap: 7%;
+    padding: 3% 0% 3% 9.8%;
+    font-size: 25px;
+    background-color: #f6f6f6;
+    border-radius: 30px;
+    box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+  }
+  .numérotation {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    border-radius: 50px;
+    height: auto;
+    font-size: 20px;
+    background: #9356dc;
+    border-style: none;
+    color: white;
+    padding: 2.22% 3.97% 2.22% 3.97%;
+    margin: 0px 0px 0px -17.4%;
+    align-items: center;
+  }
+  .fa-solid.fa-mobile-screen-button {
+    color: gray;
+    font-size: 32px;
+  }
+  .fa-solid.fa-list-ul {
+    color: gray;
+    font-size: 32px;
+  }
+  .fa-solid.fa-store {
+    color: #9356dc;
+    font-size: 32px;
+  }
+  .Posi_Abso {
+    height: 14%;
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    position: absolute;
+    background-color: #99e2d0;
+    color: #008766;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: 4% 0px 0px 74%;
+    border-radius: 5px;
+  }
+  .carte_restaurant {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 25em;
+    background-color: white;
+    border-radius: 25px;
+    position: relative;
+  }
+  .ancrage_gras {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  a {
+    font-family: "Roboto", sans-serif;
+    font-size: 23px;
+  }
+  .fa-regular.fa-heart {
+    font-size: 35px;
+    color: rgb(231, 114, 218);
+    background-color: linear-gradient(180deg, rgb(231, 114, 218) 0%, rgb(177, 95, 221) 60%);
+  }
+  .fa-solid.fa-heart {
+    font-size: 35px;
+    color: rgb(231, 114, 218);
+  }
+  .section_footer {
+    background-color: #353535;
+    color: #ffffff;
+    font-size: 28px;
+    padding: 40px 0px 30px 30px;
+    margin: 0px 0px 0px 0px;
+  }
+}
+@media screen and (max-width: 500px) {
+  h1 {
+    font-family: "Shrikhand", sans-serif;
+    display: flex;
+    width: 100%;
+    font-size: 43px;
+    padding: 4% 0% 4% 0%;
+    margin: 0;
+    justify-content: space-around;
+  }
+  .premiere_div {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #e2e2e2;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    box-shadow: -1px 5px 5px 0px gray inset;
+    -webkit-box-shadow: -1px 5px 5px 0px gray inset;
+    -moz-box-shadow: -1px 9px 5px 0px gray inset;
+  }
+  .h2_deuxieme-div {
+    display: flex;
+    font-size: 35px;
+    width: 65%;
+    text-align: center;
+    margin: 1.4% 0px 0px 0px;
+  }
+  .p_deuxieme-div-header {
+    font-size: 23px;
+    width: 90%;
+    font-weight: lighter;
+    text-align: center;
+    margin: 30px 0px 20px 0px;
+  }
+  button {
+    width: 50%;
+    border-radius: 50px;
+    height: auto;
+    font-size: 19px;
+    box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+    background: rgb(231, 114, 218);
+    background: linear-gradient(180deg, rgb(231, 114, 218) 0%, rgb(177, 95, 221) 60%);
+    border-style: none;
+    color: white;
+    margin: 2.7% 0% 2.7% 0%;
+    padding: 3.5% 0% 3.5% 0%;
+  }
+  .h2_espace {
+    padding: 9.8% 0% 6.6% 6.6%;
+    display: flex;
+    font-size: 37px;
+    width: 65%;
+    text-align: center;
+    margin: 0;
+  }
+  .div_fonction {
+    width: 75%;
+    height: 150%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    -moz-column-gap: 7%;
+    column-gap: 7%;
+    padding: 3% 0% 3% 9.8%;
+    font-size: 23px;
+    background-color: #f6f6f6;
+    border-radius: 30px;
+    box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+  }
+  .numérotation {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    border-radius: 50px;
+    height: auto;
+    font-size: 18px;
+    background: #9356dc;
+    border-style: none;
+    color: white;
+    padding: 2.22% 3.97% 2.22% 3.97%;
+    margin: 0px 0px 0px -17.4%;
+    align-items: center;
+  }
+  .fa-solid.fa-mobile-screen-button {
+    color: gray;
+    font-size: 30px;
+  }
+  .fa-solid.fa-list-ul {
+    color: gray;
+    font-size: 30px;
+  }
+  .fa-solid.fa-store {
+    color: #9356dc;
+    font-size: 30px;
+  }
+  .Posi_Abso {
+    height: 14%;
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    position: absolute;
+    background-color: #99e2d0;
+    color: #008766;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: 4% 0px 0px 74%;
+    border-radius: 5px;
+  }
+  .carte_restaurant {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 23em;
+    background-color: white;
+    border-radius: 25px;
+    position: relative;
+  }
+  .ancrage_gras {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  a {
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+  }
+  .fa-regular.fa-heart {
+    font-size: 33px;
+    color: rgb(231, 114, 218);
+    background-color: linear-gradient(180deg, rgb(231, 114, 218) 0%, rgb(177, 95, 221) 60%);
+  }
+  .fa-solid.fa-heart {
+    font-size: 33px;
+    color: rgb(231, 114, 218);
+  }
+  h6 {
+    font-family: "Shrikhand", sans-serif;
+    font-size: 35px;
+    margin: 0;
+  }
+  .section_footer {
+    background-color: #353535;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 40px 0px 30px 30px;
+    margin: 0px 0px 0px 0px;
+  }
+}
+@media screen and (max-width: 450px) {
+  h1 {
+    font-family: "Shrikhand", sans-serif;
+    display: flex;
+    width: 100%;
+    font-size: 39px;
+    padding: 4% 0% 4% 0%;
+    margin: 0;
+    justify-content: space-around;
+  }
+  .premiere_div {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #e2e2e2;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    box-shadow: -1px 5px 5px 0px gray inset;
+    -webkit-box-shadow: -1px 5px 5px 0px gray inset;
+    -moz-box-shadow: -1px 9px 5px 0px gray inset;
+  }
+  .h2_deuxieme-div {
+    display: flex;
+    font-size: 32px;
+    width: 65%;
+    text-align: center;
+    margin: 1.4% 0px 0px 0px;
+  }
+  .p_deuxieme-div-header {
+    font-size: 20px;
+    width: 90%;
+    font-weight: lighter;
+    text-align: center;
+    margin: 30px 0px 20px 0px;
+  }
+  button {
+    width: 50%;
+    border-radius: 50px;
+    height: auto;
+    font-size: 17px;
+    box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+    background: rgb(231, 114, 218);
+    background: linear-gradient(180deg, rgb(231, 114, 218) 0%, rgb(177, 95, 221) 60%);
+    border-style: none;
+    color: white;
+    margin: 2.7% 0% 2.7% 0%;
+    padding: 3.5% 0% 3.5% 0%;
+  }
+  .h2_espace {
+    padding: 9.8% 0% 6.6% 6.6%;
+    display: flex;
+    font-size: 35px;
+    width: 65%;
+    text-align: center;
+    margin: 0;
+  }
+  .div_fonction {
+    width: 75%;
+    height: 150%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    -moz-column-gap: 7%;
+    column-gap: 7%;
+    padding: 3% 0% 3% 9.8%;
+    font-size: 21px;
+    background-color: #f6f6f6;
+    border-radius: 30px;
+    box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+    -webkit-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+  }
+  .numérotation {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    border-radius: 50px;
+    height: auto;
+    font-size: 15px;
+    background: #9356dc;
+    border-style: none;
+    color: white;
+    padding: 2.22% 3.97% 2.22% 3.97%;
+    margin: 0px 0px 0px -17.4%;
+    align-items: center;
+  }
+  .fa-solid.fa-mobile-screen-button {
+    color: gray;
+    font-size: 28px;
+  }
+  .fa-solid.fa-list-ul {
+    color: gray;
+    font-size: 28px;
+  }
+  .fa-solid.fa-store {
+    color: #9356dc;
+    font-size: 28px;
+  }
+  .Posi_Abso {
+    height: 14%;
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    position: absolute;
+    background-color: #99e2d0;
+    color: #008766;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: 4% 0px 0px 74%;
+    border-radius: 5px;
+  }
+  .carte_restaurant {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 21em;
+    background-color: white;
+    border-radius: 25px;
+    position: relative;
+  }
+  .ancrage_gras {
+    font-size: 21px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  a {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+  }
+  .fa-regular.fa-heart {
+    font-size: 31px;
+    color: rgb(231, 114, 218);
+    background-color: linear-gradient(180deg, rgb(231, 114, 218) 0%, rgb(177, 95, 221) 60%);
+  }
+  .fa-solid.fa-heart {
+    font-size: 31px;
+    color: rgb(231, 114, 218);
+  }
+  h6 {
+    font-family: "Shrikhand", sans-serif;
+    font-size: 33px;
+    margin: 0;
+  }
+  .section_footer {
+    background-color: #353535;
+    color: #ffffff;
+    font-size: 22px;
+    padding: 40px 0px 30px 30px;
+    margin: 0px 0px 0px 0px;
   }
 }/*# sourceMappingURL=mobile.css.map */
