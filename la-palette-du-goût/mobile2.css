@@ -9,7 +9,7 @@
   a {
     font-family: "Roboto", sans-serif;
     font-size: 29px;
-    font-style: none;
+    width: auto;
   }
   .a {
     font-family: "Roboto", sans-serif;
@@ -36,16 +36,21 @@
   h1 {
     font-family: "Shrikhand", sans-serif;
     display: flex;
-    width: 100%;
+    width: 75%;
     font-size: 55px;
-    padding: 30px 0px 25px 0px;
+    padding: 40px 0px 25px 0px;
     margin: 0;
     justify-content: space-around;
+    letter-spacing: 2px;
   }
   h2 {
     font-family: "Roboto", sans-serif;
     font-size: 40px;
-    width: 50%;
+    width: 13%;
+    border-bottom: #99e2d0 solid 5px;
+    padding-bottom: 5px;
+    margin: 0px 0px 0px 3%;
+    font-weight: 100;
   }
   h6 {
     font-family: "Shrikhand", sans-serif;
@@ -53,6 +58,7 @@
     margin: 0;
   }
   img {
+    display: flex;
     width: 100%;
     height: 70%;
     -o-object-fit: cover;
@@ -61,7 +67,13 @@
   }
   p {
     font-family: "Roboto", sans-serif;
-    margin: 10px;
+    font-size: 29px;
+    margin: 0;
+  }
+  .p-1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
   }
   .p_deuxieme-div {
     font-size: 30px;
@@ -73,27 +85,70 @@
     align-items: baseline;
   }
   .fa-solid.fa-arrow-left {
-    font-size: 50px;
+    font-size: 40px;
     margin: 0px 0px 0px 50px;
+    color: black;
   }
   .fa-solid.fa-arrow-left:active {
     text-decoration: none;
     color: black;
   }
   /*Main*/
-  .div_fonction {
-    width: 85%;
-    height: 150px;
+  .main {
+    width: 100%;
+    display: flex;
+    background-color: #f6f6f6;
+    position: absolute;
+    flex-direction: column;
+    margin: -11.2% 0px 0px 0px;
+    border-top-right-radius: 4.5em;
+    border-top-left-radius: 4.5em;
+  }
+  .titre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 4% 0% 4% 5%;
+    gap: 8%;
+  }
+  .fa-regular.fa-heart {
+    font-size: 50px;
+  }
+  .div_0 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px;
-    padding-left: 75px;
+    padding: 0px 0px 7% 0px;
+  }
+  .div_1 {
+    width: 95%;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+    margin: 20px 0px 20px 0px;
     font-size: 35px;
-    background-color: #f6f6f6;
+    background-color: #ffffff;
     border-radius: 30px;
     box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
     -webkit-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
     -moz-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+  }
+  .div_2 {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    gap: 6px;
+    padding: 0% 0% 0% 4%;
+  }
+  .div_3 {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    padding: 0% 5% 7% 0%;
+    justify-content: flex-end;
+    align-items: flex-end;
   }
 }/*# sourceMappingURL=mobile2.css.map */
