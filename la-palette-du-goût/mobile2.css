@@ -20,18 +20,18 @@
     font-size: 35px;
   }
   button {
+    display: flex;
     width: 50%;
     border-radius: 50px;
     height: 90px;
     font-size: 28px;
     box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
-    -webkit-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
-    -moz-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
-    background: rgb(231, 114, 218);
     background: linear-gradient(180deg, rgb(231, 114, 218) 0%, rgb(177, 95, 221) 60%);
+    color: #ffffff;
     border-style: none;
-    color: white;
-    margin: 20px 0px 20px 0px;
+    margin: 10% 0px 10% 0px;
+    justify-content: center;
+    align-items: center;
   }
   h1 {
     font-family: "Shrikhand", sans-serif;
