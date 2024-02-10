@@ -25,7 +25,7 @@
   }
 
   button {
-    width: 13%;
+    width: 15%;
     border-radius: 50px;
     height: 60px;
     font-size: 21px;
@@ -139,12 +139,12 @@
   }
 
   .h2_espace {
-    padding: 50px 0px 50px 280px;
+    padding: 2.61% 0px 2.61% 13.5%;
     display: flex;
     font-size: 30px;
     width: 65%;
     text-align: center;
-    margin: 10px 0px 0px 0px;
+    margin: 1% 0px 0px 0px;
   }
 
   .troisieme_div {
@@ -208,16 +208,19 @@
 
   .section_restaurants {
     width: 100%;
-    height: 970px;
+    height: auto;
     background-color: #f6f6f6;
+    padding: 0% 0% 2.5% 0%;
   }
 
   .div_restaurant {
+    width: 100%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     row-gap: 75px;
-    column-gap: 150px;
+    column-gap: 7%;
     justify-content: center;
   }
 
@@ -243,7 +246,7 @@
     align-items: center;
     justify-content: center;
     padding: 0px 0px 0px 0px;
-    margin: 25px 0px 0px 81%;
+    margin: 25px 0px 0px 79%;
     border-radius: 3px;
   }
 
@@ -311,4 +314,49 @@
       ); */
 
   /*Section Footer*/
+
+  .section_footer {
+    background-color: #353535;
+    height: 100px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 40px 0px 0px 30px;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .section_footer-1 {
+    display: flex;
+    margin: 0px 100px 20px 0px;
+  }
+
+  .section_footer-2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0px 0px;
+  }
+
+  .section_footer-3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0px;
+    padding: 0px 50px 0px 0px;
+  }
+
+  .section_footer-p {
+    margin: 8px 0px 8px 0px;
+  }
+
+  .section_footer-reverse {
+    display: flex;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 45%;
+    padding: 0px 75px 0px 0px;
+  }
 }
