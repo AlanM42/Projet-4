@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media screen and (min-width: 768) {
+@media screen and (max-width: 1024px) {
   body {
     width: 100%;
     height: 100%;
@@ -8,8 +8,9 @@
   /*Géneral*/
   a {
     font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    font-style: none;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
   }
   .a {
     font-family: "Roboto", sans-serif;
@@ -20,10 +21,10 @@
     font-size: 35px;
   }
   button {
-    width: 27%;
+    width: 22%;
     border-radius: 50px;
-    height: 55px;
-    font-size: 20px;
+    height: 50px;
+    font-size: 17px;
     box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
     -webkit-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
     -moz-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
@@ -31,14 +32,14 @@
     background: linear-gradient(180deg, rgb(231, 114, 218) 0%, rgb(177, 95, 221) 60%);
     border-style: none;
     color: white;
-    margin: 20px 0px 20px 0px;
+    margin: 1% 0px 1% 0px;
   }
   h1 {
     font-family: "Shrikhand", sans-serif;
     display: flex;
     width: 100%;
-    font-size: 30px;
-    padding: 20px 0px 15px 0px;
+    font-size: 38px;
+    padding: 1.7% 0px 1.7% 0px;
     margin: 0;
     justify-content: space-around;
   }
@@ -56,13 +57,14 @@
   img {
     width: 100%;
     height: 75%;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
     -o-object-fit: cover;
        object-fit: cover;
   }
   p {
     font-family: "Roboto", sans-serif;
+    font-size: 17px;
   }
   .p_deuxieme-div {
     font-size: 30px;
@@ -71,19 +73,19 @@
   /*Section premiere*/
   .premiere_div {
     display: flex;
-    gap: 20px;
+    gap: 15px;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 50px;
+    height: 60px;
     margin: 0;
     background-color: #e2e2e2;
     font-family: "Roboto", sans-serif;
-    font-size: 16px;
+    font-size: 19px;
   }
   .deuxieme_div {
     margin: 0px;
-    padding: 30px 0px 0px 0px;
+    padding: 1.5% 0px 0px 0px;
     width: 100%;
     height: 220px;
     display: flex;
@@ -94,58 +96,56 @@
   }
   .h2_deuxieme-div {
     display: flex;
-    font-size: 32px;
-    width: 65%;
+    font-size: 38px;
+    width: 75%;
     text-align: center;
     margin: 10px 0px 0px 0px;
     justify-content: center;
   }
   .p_deuxieme-div-header {
-    font-size: 15px;
+    font-size: 17px;
     width: 90%;
     font-weight: 100;
     text-align: center;
-    margin: 30px 0px 0px 0px;
+    margin: 2% 0px 2% 0px;
   }
   /*Section fonctionnement*/
   .section_fonctionnement {
     width: 100%;
-    height: 250px;
+    height: 220px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     padding: 0px 0px 0px 0px;
-    margin: 0;
   }
   .h2_espace {
-    padding: 30px 0px 30px 70px;
+    padding: 2.61% 0px 0% 5.5%;
     display: flex;
-    font-size: 22px;
+    font-size: 23px;
     width: 65%;
     text-align: center;
-    margin: 0px 0px 0px 0px;
+    margin: 1% 0px 0px 0px;
   }
   .troisieme_div {
     width: 100%;
-    height: 100px;
+    height: 220px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 35px;
     padding: 0px;
-    box-shadow: black;
   }
   .div_fonction {
-    width: 20%;
-    height: 50px;
+    width: 22%;
+    height: 75px;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 15px;
     padding-left: 50px;
-    font-size: 16px;
+    font-size: 23px;
     background-color: #f6f6f6;
-    border-radius: 15px;
+    border-radius: 20px;
     box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
     -webkit-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
     -moz-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
@@ -156,63 +156,67 @@
     width: 25px;
     border-radius: 50px;
     height: 25px;
-    font-size: 18px;
+    font-size: 17px;
     background: #9356dc;
     border-style: none;
     color: white;
     padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px -65px;
+    margin: 0px 0px 0px -27%;
     align-items: center;
   }
   .fa-solid.fa-mobile-screen-button {
     color: gray;
-    font-size: 15px;
+    font-size: 17px;
   }
   .fa-solid.fa-list-ul {
     color: gray;
-    font-size: 15px;
+    font-size: 17px;
   }
   .fa-solid.fa-store {
     color: #9356dc;
-    font-size: 15px;
+    font-size: 17px;
   }
   /*section restaurant*/
   .section_restaurants {
     width: 100%;
-    height: 100%;
+    height: auto;
     background-color: #f6f6f6;
+    padding: 0% 0% 2.5% 0%;
   }
   .div_restaurant {
+    width: 100%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    row-gap: 25px;
-    -moz-column-gap: 50px;
-         column-gap: 50px;
+    row-gap: 75px;
+    -moz-column-gap: 7%;
+         column-gap: 7%;
     justify-content: center;
+    padding: 4% 0% 4% 0%;
   }
   .carte_restaurant {
     display: flex;
     flex-direction: column;
     width: 40%;
-    height: 210px;
+    height: 250px;
     background-color: white;
     border-radius: 15px;
     position: relative;
   }
   .Posi_Abso {
-    height: 40px;
-    width: 80px;
+    height: 14.5%;
+    width: 17.4%;
     display: flex;
     justify-content: center;
-    font-size: 15px;
+    font-size: 20px;
     position: absolute;
     background-color: #99e2d0;
     color: #008766;
     align-items: center;
     justify-content: center;
     padding: 0px 0px 0px 0px;
-    margin: 20px 0px 0px 75%;
+    margin: 4.5% 0px 0px 78%;
     border-radius: 3px;
   }
   .contenu_carte_restaurant {
@@ -227,40 +231,40 @@
     width: 50%;
     flex-direction: column;
     gap: 6px;
-    padding: 5px 0px 0px 20px;
+    padding: 1.5% 0px 0px 2%;
   }
   .contenu_carte_restaurant-2 {
     display: flex;
     width: 50%;
-    padding: 20px 35px 0px 0px;
+    padding: 2% 3.5% 0px 0px;
     justify-content: flex-end;
   }
   .ancrage_gras {
-    font-size: 15px;
+    font-size: 19px;
     font-weight: bold;
   }
   .fa-regular.fa-heart {
-    font-size: 20px;
+    font-size: 25px;
   }
   .fa-regular.fa-heart {
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(231, 114, 218);
     background-color: linear-gradient(180deg, rgb(231, 114, 218) 0%, rgb(177, 95, 221) 60%);
   }
   .fa-solid.fa-heart {
-    font-size: 20px;
+    font-size: 25px;
   }
   .fa-solid.fa-heart {
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(231, 114, 218);
     background-color: linear-gradient(180deg, rgb(231, 114, 218) 0%, rgb(177, 95, 221) 60%);
   }
   /* background: rgb(231, 114, 218);
-                background: linear-gradient(
-                  180deg,
-                  rgba(231, 114, 218, 1) 0%,
-                  rgba(177, 95, 221, 1) 60%
-                ); */
+      background: linear-gradient(
+        180deg,
+        rgba(231, 114, 218, 1) 0%,
+        rgba(177, 95, 221, 1) 60%
+      ); */
   /*Section Footer*/
   .section_footer {
     background-color: #353535;
