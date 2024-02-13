@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-width: 768px) {
   body {
     width: 100%;
     height: 100%;
@@ -50,15 +50,15 @@
   }
   h6 {
     font-family: "Shrikhand", sans-serif;
-    font-size: 25px;
+    font-size: 22px;
     margin: 0;
     color: #f6f6f6;
   }
   img {
     width: 100%;
     height: 75%;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -137,7 +137,7 @@
   }
   .div_fonction {
     width: 22%;
-    height: 75px;
+    height: 60px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -145,7 +145,7 @@
     padding-left: 50px;
     font-size: 23px;
     background-color: #f6f6f6;
-    border-radius: 20px;
+    border-radius: 15px;
     box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
     -webkit-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
     -moz-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
@@ -216,7 +216,7 @@
     align-items: center;
     justify-content: center;
     padding: 0px 0px 0px 0px;
-    margin: 4.5% 0px 0px 78%;
+    margin: 4.5% 0px 0px 77.5%;
     border-radius: 3px;
   }
   .contenu_carte_restaurant {
@@ -231,7 +231,7 @@
     width: 50%;
     flex-direction: column;
     gap: 5px;
-    padding: 1.5% 0px 0px 2%;
+    padding: 1.5% 0px 0px 3%;
   }
   .contenu_carte_restaurant-2 {
     display: flex;
@@ -271,7 +271,7 @@
     height: 100px;
     color: #ffffff;
     font-size: 20px;
-    padding: 40px 0px 0px 30px;
+    padding: 2% 0px 0px 3%;
     margin: 0px 0px 0px 0px;
     display: flex;
     flex-direction: row-reverse;
@@ -279,7 +279,7 @@
   }
   .section_footer-1 {
     display: flex;
-    margin: 0px 100px 20px 0px;
+    margin: 0px 10% 0% 0px;
   }
   .section_footer-2 {
     display: flex;
@@ -292,17 +292,17 @@
     align-items: center;
     gap: 10px;
     margin: 0px;
-    padding: 0px 50px 0px 0px;
+    padding: 0px 5% 0px 0px;
   }
   .section_footer-p {
     margin: 8px 0px 8px 0px;
   }
   .section_footer-reverse {
     display: flex;
-    row-gap: 20px;
+    row-gap: 10px;
     align-items: center;
-    justify-content: space-evenly;
-    width: 45%;
-    padding: 0px 75px 0px 0px;
+    justify-content: space-between;
+    width: 65%;
+    padding: 0px 5% 0px 0px;
   }
 }/*# sourceMappingURL=tablette.css.map */
