@@ -227,15 +227,15 @@
   }
   .contenu_carte_restaurant-1 {
     display: flex;
-    width: 50%;
+    width: 85%;
     flex-direction: column;
     gap: 6px;
-    padding: 15px 0px 0px 20px;
+    padding: 1.5% 0px 0px 2%;
   }
   .contenu_carte_restaurant-2 {
     display: flex;
-    width: 50%;
-    padding: 20px 35px 0px 0px;
+    width: 15%;
+    padding: 3.5% 3.5% 0px 0px;
     justify-content: flex-end;
   }
   .ancrage_gras {
@@ -264,7 +264,7 @@
     height: 100px;
     color: #ffffff;
     font-size: 20px;
-    padding: 40px 0px 0px 30px;
+    padding: 1.7% 0px 0px 1.7%;
     margin: 0px 0px 0px 0px;
     display: flex;
     flex-direction: row-reverse;
@@ -272,7 +272,7 @@
   }
   .section_footer-1 {
     display: flex;
-    margin: 0px 100px 20px 0px;
+    margin: 0px 5% 0% 0px;
   }
   .section_footer-2 {
     display: flex;
@@ -286,7 +286,7 @@
     align-items: center;
     gap: 10px;
     margin: 0px;
-    padding: 0px 6% 0px 0px;
+    padding: 0px 5% 0px 0px;
   }
   .section_footer-p {
     margin: 8px 0px 8px 0px;
@@ -296,7 +296,7 @@
     row-gap: 20px;
     align-items: center;
     justify-content: space-evenly;
-    width: 45%;
+    width: 50%;
     padding: 0px 75px 0px 0px;
   }
 }
@@ -352,5 +352,59 @@
     background-color: white;
     border-radius: 25px;
     position: relative;
+  }
+}
+@media screen and (max-width: 1620px) {
+  button {
+    font-size: 19px;
+  }
+  .div_fonction {
+    gap: 24px;
+  }
+  .section_footer-reverse {
+    width: 52%;
+  }
+}
+@media screen and (max-width: 1520px) {
+  .div_fonction {
+    font-size: 21px;
+    gap: 20px;
+  }
+  button {
+    font-size: 17px;
+  }
+  .h2_deuxieme-div {
+    font-size: 43px;
+  }
+  h1 {
+    font-size: 42px;
+  }
+  .numérotation {
+    width: 32px;
+    height: 32px;
+    font-size: 20px;
+  }
+  .carte_restaurant {
+    height: 315px;
+    border-radius: 20px;
+  }
+  img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .section_footer-reverse {
+    width: 55%;
+  }
+}
+@media screen and (max-width: 1420px) {
+  .Posi_Abso {
+    font-size: 18px;
+  }
+  .div_fonction {
+    font-size: 19px;
+    gap: 18px;
+  }
+  button {
+    height: 50px;
   }
 }/*# sourceMappingURL=media.css.map */
