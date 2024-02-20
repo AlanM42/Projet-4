@@ -64,6 +64,7 @@
     -o-object-fit: cover;
        object-fit: cover;
     position: relative;
+    z-index: -1;
   }
   p {
     font-family: "Roboto", sans-serif;
@@ -101,7 +102,7 @@
     background-color: #f6f6f6;
     position: absolute;
     flex-direction: column;
-    margin: -11.2% 0px 0px 0px;
+    margin-top: -100px;
     border-top-right-radius: 4.7em;
     border-top-left-radius: 4.7em;
   }
@@ -842,5 +843,17 @@
     display: flex;
     width: 100%;
     justify-content: center;
+  }
+}
+.slide-bottom {
+  animation: slide-bottom 3s;
+}
+
+@keyframes slide-bottom {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100px);
   }
 }/*# sourceMappingURL=mobile2.css.map */
