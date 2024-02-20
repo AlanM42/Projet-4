@@ -351,18 +351,6 @@
   .section_footer-p {
     margin: 8px 0px 0px 0px;
   }
-
-  .slide-bottom {
-    animation: slide-bottom 3s;
-  }
-  @keyframes slide-bottom {
-    0% {
-      transform: translateY(0);
-    }
-    100% {
-      transform: translateY(100px);
-    }
-  }
 }
 
 /*Adaptation*/
