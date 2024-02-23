@@ -259,12 +259,6 @@
     color: rgb(231, 114, 218);
     background-color: linear-gradient(180deg, rgb(231, 114, 218) 0%, rgb(177, 95, 221) 60%);
   }
-  /* background: rgb(231, 114, 218);
-      background: linear-gradient(
-        180deg,
-        rgba(231, 114, 218, 1) 0%,
-        rgba(177, 95, 221, 1) 60%
-      ); */
   /*Section Footer*/
   .section_footer {
     background-color: #353535;

@@ -76,7 +76,8 @@
     object-fit: fill;
     position: relative;
     overflow: hidden;
-    clip-path: inset(0%);
+    clip-path: inset(23% 0%);
+    margin-top: -15%;
   }
 
   p {
