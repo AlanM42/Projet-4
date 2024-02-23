@@ -1,0 +1,17 @@
+    <footer class="section_footer">
+      <div class="section_footer-1">
+        <h6>ohmyfood</h6>
+      </div>
+      <div class="section_footer-reverse">
+        <div class="section_footer-2">
+          <i class="fa-solid fa-utensils"></i>
+          <p class="section_footer-p">Proposer un restaurant</p>
+        </div>
+        <div class="section_footer-3">
+          <i class="fa-solid fa-handshake-angle"></i>
+          <p class="section_footer-p">Devenir partenaire</p>
+        </div>
+        <p class="section_footer-p">Mentions légales</p>
+        <p class="section_footer-p">Contact</p>
+      </div>
+    </footer>
