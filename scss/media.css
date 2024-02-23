@@ -315,7 +315,7 @@
     -moz-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
   }
   .troisieme_div {
-    gap: 45px;
+    gap: 80px;
   }
   .numérotation {
     display: flex;
@@ -364,10 +364,13 @@
     border-radius: 19px;
   }
   .troisieme_div {
-    gap: 40px;
+    gap: 70px;
   }
   .section_footer-reverse {
     width: 52%;
+  }
+  p {
+    font-size: 21px;
   }
 }
 @media screen and (max-width: 1520px) {
@@ -378,7 +381,7 @@
     border-radius: 16px;
   }
   .troisieme_div {
-    gap: 35px;
+    gap: 60px;
   }
   button {
     font-size: 17px;
@@ -395,7 +398,7 @@
     font-size: 20px;
   }
   .carte_restaurant {
-    height: 315px;
+    height: 300px;
     border-radius: 20px;
   }
   img {
@@ -420,11 +423,12 @@
     border-radius: 12px;
   }
   .troisieme_div {
-    gap: 30px;
+    gap: 65px;
     height: 80px;
   }
   button {
     height: 50px;
+    font-size: 16px;
   }
   .fa-solid.fa-mobile-screen-button {
     color: gray;
@@ -439,9 +443,9 @@
     font-size: 21px;
   }
   .numérotation {
-    width: 30px;
+    width: 28px;
     border-radius: 40px;
-    height: 30px;
+    height: 28px;
     font-size: 18px;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px -65px;
@@ -466,4 +470,45 @@
     font-size: 26px;
     color: rgb(231, 114, 218);
   }
-}/*# sourceMappingURL=media.css.map */
+  .ancrage_gras {
+    font-size: 21px;
+  }
+  a {
+    font-size: 19px;
+  }
+  .section_footer-reverse {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 1320px) {
+  .div_fonction {
+    gap: 15px;
+  }
+  .numérotation {
+    width: 25px;
+    height: 25px;
+    font-size: 17px;
+  }
+  .fa-regular.fa-heart {
+    font-size: 23px;
+    color: rgb(231, 114, 218);
+  }
+  .fa-solid.fa-heart {
+    font-size: 23px;
+  }
+  .fa-solid.fa-heart {
+    font-size: 23px;
+    color: rgb(231, 114, 218);
+  }
+  .carte_restaurant {
+    height: 280px;
+  }
+  .troisieme_div {
+    gap: 70px;
+  }
+  .section_footer-reverse {
+    width: 65%;
+  }
+}
+/*@media screen and (max-width: 1220px) {
+}*//*# sourceMappingURL=media.css.map */
