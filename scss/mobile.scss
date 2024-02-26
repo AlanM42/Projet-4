@@ -75,6 +75,12 @@
 
   p {
     font-family: "Roboto", sans-serif;
+    font-size: 25px;
+  }
+
+  .Posi_Abso-p {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
   }
 
   .p_deuxieme-div {
@@ -83,6 +89,9 @@
   }
 
   /*Animation*/
+
+  /* .fa-solid.fa-spinner 
+
   .chargement {
     display: flex;
     align-items: center;
@@ -98,9 +107,7 @@
     position: fixed;
     top: 0;
     opacity: 0.6;
-  }
-
-  .fa-solid.fa-spinner
+  } */
 
   /*Section premiere*/
 
@@ -138,7 +145,7 @@
   .h2_deuxieme-div {
     display: flex;
     font-size: 50px;
-    width: 65%;
+    width: 75%;
     text-align: center;
     margin: 1.4% 0px 0px 0px;
   }
@@ -405,7 +412,7 @@
   .h2_deuxieme-div {
     display: flex;
     font-size: 45px;
-    width: 65%;
+    width: 75%;
     text-align: center;
     margin: 1.4% 0px 0px 0px;
   }
@@ -505,6 +512,11 @@
     position: relative;
   }
 
+  .Posi_Abso-p {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+  }
+
   .ancrage_gras {
     font-size: 27px;
     font-weight: bold;
@@ -557,7 +569,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 70px;
     margin: 0;
     background-color: #e2e2e2;
     font-family: "Roboto", sans-serif;
@@ -570,7 +582,7 @@
   .h2_deuxieme-div {
     display: flex;
     font-size: 37px;
-    width: 65%;
+    width: 75%;
     text-align: center;
     margin: 1.4% 0px 0px 0px;
   }
@@ -581,6 +593,10 @@
     font-weight: lighter;
     text-align: center;
     margin: 30px 0px 20px 0px;
+  }
+
+  p {
+    font-size: 23px;
   }
 
   button {
@@ -682,11 +698,16 @@
     border-radius: 5px;
   }
 
+  .Posi_Abso-p {
+    font-family: "Roboto", sans-serif;
+    font-size: 23px;
+  }
+
   .carte_restaurant {
     display: flex;
     flex-direction: column;
     width: 90%;
-    height: 25em;
+    height: 22em;
     background-color: white;
     border-radius: 25px;
     position: relative;
@@ -744,7 +765,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 70px;
     margin: 0;
     background-color: #e2e2e2;
     font-family: "Roboto", sans-serif;
@@ -757,7 +778,7 @@
   .h2_deuxieme-div {
     display: flex;
     font-size: 35px;
-    width: 65%;
+    width: 75%;
     text-align: center;
     margin: 1.4% 0px 0px 0px;
   }
@@ -768,6 +789,10 @@
     font-weight: lighter;
     text-align: center;
     margin: 30px 0px 20px 0px;
+  }
+
+  p {
+    font-size: 21px;
   }
 
   button {
@@ -810,7 +835,7 @@
     padding: 3% 0% 3% 9.8%;
     font-size: 23px;
     background-color: #f6f6f6;
-    border-radius: 30px;
+    border-radius: 20px;
     box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
     -webkit-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
     -moz-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
@@ -833,17 +858,17 @@
 
   .fa-solid.fa-mobile-screen-button {
     color: gray;
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .fa-solid.fa-list-ul {
     color: gray;
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .fa-solid.fa-store {
     color: #9356dc;
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .div_restaurant {
@@ -867,6 +892,11 @@
     padding: 0px 0px 0px 0px;
     margin: 4% 0px 0px 74%;
     border-radius: 5px;
+  }
+
+  .Posi_Abso-p {
+    font-family: "Roboto", sans-serif;
+    font-size: 21px;
   }
 
   .carte_restaurant {
@@ -937,7 +967,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 65px;
     margin: 0;
     background-color: #e2e2e2;
     font-family: "Roboto", sans-serif;
@@ -949,18 +979,22 @@
 
   .h2_deuxieme-div {
     display: flex;
-    font-size: 32px;
-    width: 65%;
+    font-size: 29px;
+    width: 76%;
     text-align: center;
     margin: 1.4% 0px 0px 0px;
   }
 
   .p_deuxieme-div-header {
-    font-size: 20px;
+    font-size: 19px;
     width: 90%;
     font-weight: lighter;
     text-align: center;
     margin: 30px 0px 20px 0px;
+  }
+
+  p {
+    font-size: 19px;
   }
 
   button {
@@ -1003,7 +1037,7 @@
     padding: 3% 0% 3% 9.8%;
     font-size: 21px;
     background-color: #f6f6f6;
-    border-radius: 30px;
+    border-radius: 20px;
     box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
     -webkit-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
     -moz-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
@@ -1026,17 +1060,17 @@
 
   .fa-solid.fa-mobile-screen-button {
     color: gray;
-    font-size: 28px;
+    font-size: 25px;
   }
 
   .fa-solid.fa-list-ul {
     color: gray;
-    font-size: 28px;
+    font-size: 25px;
   }
 
   .fa-solid.fa-store {
     color: #9356dc;
-    font-size: 28px;
+    font-size: 25px;
   }
 
   .div_restaurant {
@@ -1060,6 +1094,11 @@
     padding: 0px 0px 0px 0px;
     margin: 4% 0px 0px 74%;
     border-radius: 5px;
+  }
+
+  .Posi_Abso-p {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
   }
 
   .carte_restaurant {
@@ -1134,6 +1173,22 @@
     padding: 3.5% 0% 3.5% 0%;
   }
 
+  .h2_deuxieme-div {
+    display: flex;
+    font-size: 29px;
+    width: 79%;
+    text-align: center;
+    margin: 1.4% 0px 0px 0px;
+  }
+
+  .p_deuxieme-div-header {
+    font-size: 18px;
+    width: 93%;
+    font-weight: lighter;
+    text-align: center;
+    margin: 30px 0px 20px 0px;
+  }
+
   .div_fonction {
     width: 75%;
     height: 150%;
@@ -1141,14 +1196,65 @@
     flex-direction: row;
     align-items: center;
     -moz-column-gap: 7%;
-    column-gap: 7%;
+    column-gap: 5%;
     padding: 3% 0% 3% 9.8%;
     font-size: 19px;
     background-color: #f6f6f6;
-    border-radius: 30px;
+    border-radius: 20px;
     box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
     -webkit-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
     -moz-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
+  }
+
+  .Posi_Abso {
+    height: 14%;
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    position: absolute;
+    background-color: #99e2d0;
+    color: #008766;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+    margin: 4% 0px 0px 74%;
+    border-radius: 5px;
+  }
+
+  .Posi_Abso-p {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+  }
+
+  .numérotation {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    border-radius: 50px;
+    height: auto;
+    font-size: 15px;
+    background: #9356dc;
+    border-style: none;
+    color: white;
+    padding: 2.22% 3.97% 2.22% 3.97%;
+    margin: 0px 0px 0px -17.4%;
+    align-items: center;
+  }
+
+  .fa-solid.fa-mobile-screen-button {
+    color: gray;
+    font-size: 23px;
+  }
+
+  .fa-solid.fa-list-ul {
+    color: gray;
+    font-size: 23px;
+  }
+
+  .fa-solid.fa-store {
+    color: #9356dc;
+    font-size: 23px;
   }
 }
 
@@ -1165,11 +1271,11 @@
 
   .premiere_div {
     display: flex;
-    gap: 20px;
+    gap: 15px;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 60px;
     margin: 0;
     background-color: #e2e2e2;
     font-family: "Roboto", sans-serif;
@@ -1182,14 +1288,14 @@
   .h2_deuxieme-div {
     display: flex;
     font-size: 30px;
-    width: 65%;
+    width: 95%;
     text-align: center;
     margin: 1.4% 0px 0px 0px;
   }
 
   .p_deuxieme-div-header {
-    font-size: 18px;
-    width: 90%;
+    font-size: 17px;
+    width: 97%;
     font-weight: lighter;
     text-align: center;
     margin: 30px 0px 20px 0px;
@@ -1231,11 +1337,11 @@
     flex-direction: row;
     align-items: center;
     -moz-column-gap: 7%;
-    column-gap: 7%;
+    column-gap: 3%;
     padding: 3% 0% 3% 9.8%;
     font-size: 16px;
     background-color: #f6f6f6;
-    border-radius: 30px;
+    border-radius: 15px;
     box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
     -webkit-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
     -moz-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
@@ -1258,17 +1364,17 @@
 
   .fa-solid.fa-mobile-screen-button {
     color: gray;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .fa-solid.fa-list-ul {
     color: gray;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .fa-solid.fa-store {
     color: #9356dc;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .div_restaurant {
@@ -1282,9 +1388,9 @@
     display: flex;
     flex-direction: column;
     width: 90%;
-    height: 13em;
+    height: 17em;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 15px;
     position: relative;
   }
 
