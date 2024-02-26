@@ -115,18 +115,19 @@
     height: auto;
     display: flex;
     background-color: #f6f6f6;
-    position: absolute;
+    position: relative;
     flex-direction: column;
-    margin: -20% 0px 0px 9.5%;
+    margin: -20% auto 0px auto;
     border-top-right-radius: 4.7em;
     border-top-left-radius: 4.7em;
+    z-index: 2;
   }
   .titre {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 6% 0% 5% 4%;
+    padding: 6% 0% 5% 0%;
     gap: 4%;
   }
   /*Logo cœur*/
@@ -290,6 +291,6 @@
     border-radius: 25px;
   }
   .div_3 {
-    padding-bottom: 5.5%;
+    padding-bottom: 7%;
   }
 }/*# sourceMappingURL=media2.css.map */

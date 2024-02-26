@@ -100,11 +100,11 @@
     height: auto;
     display: flex;
     background-color: #f6f6f6;
-    position: absolute;
     flex-direction: column;
-    margin-top: -13%;
-    border-top-right-radius: 4.7em;
-    border-top-left-radius: 4.7em;
+    margin: -10% auto 0px auto;
+    border-top-right-radius: 2.5em;
+    border-top-left-radius: 2.5em;
+    z-index: 2;
   }
   .titre {
     display: flex;
@@ -168,8 +168,6 @@
     padding: 5.7% 0px 4.3% 4.3%;
     margin: 0px 0px 0px 0px;
     width: auto;
-    position: relative;
-    z-index: 1;
   }
   .section_footer-1 {
     display: flex;
@@ -265,6 +263,7 @@
     align-items: flex-end;
   }
 }
+/*Régler les détailles à partir de 620px*/
 @media screen and (max-width: 605px) {
   h1 {
     font-family: "Shrikhand", sans-serif;

@@ -68,8 +68,22 @@
     font-size: 30px;
     width: 75%;
   }
-  /*Section premiere*/
-  .premiere_div {
+  .loader {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    opacity: 0.6;
+  }
+  .chargement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .fa-solid.fa-spinner .premiere_div {
     display: flex;
     gap: 20px;
     justify-content: center;
