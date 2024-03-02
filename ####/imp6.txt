@@ -1,7 +1,14 @@
-Régler les détailles à partir de 620px sur mobile2
-Régler le footer à partir de 1000px sur tablette et 420px sur mobile
-Régler aussi les titres sur div deuxieme_div sur mobile
-Faire les animatations
-Régler problème footer sur media2, tablette2, mobile2
+responsive, loader, footer a corriger, 
+Coeur et animation pour la fin
+
 
 keyframe animista
+
+
+    white-space: nowrap;
+    overflow: hidden;
+       text-overflow: ellipsis;
+
+
+
+animation sur div 0
