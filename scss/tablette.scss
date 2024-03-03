@@ -25,7 +25,7 @@
   }
 
   button {
-    width: 22%;
+    width: 13em;
     border-radius: 50px;
     height: 50px;
     font-size: 17px;
@@ -47,8 +47,8 @@
     font-family: "Shrikhand", sans-serif;
     display: flex;
     width: 100%;
-    font-size: 38px;
-    padding: 1.7% 0px 1.7% 0px;
+    font-size: 36px;
+    padding: 0.75% 0px 0.75% 0px;
     margin: 0;
     justify-content: space-around;
   }
@@ -61,7 +61,7 @@
 
   h6 {
     font-family: "Shrikhand", sans-serif;
-    font-size: 22px;
+    font-size: 17px;
     margin: 0;
     color: #f6f6f6;
   }
@@ -86,13 +86,17 @@
 
   /*Section premiere*/
 
+  .fa-solid.fa-location-dot {
+    font-size: 15px;
+  }
+
   .premiere_div {
     display: flex;
-    gap: 15px;
+    gap: 10px;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 60px;
+    height: 45px;
     margin: 0;
     background-color: #e2e2e2;
     font-family: "Roboto", sans-serif;
@@ -114,7 +118,7 @@
   .h2_deuxieme-div {
     display: flex;
     font-size: 38px;
-    width: 75%;
+    width: 100%;
     text-align: center;
     margin: 10px 0px 0px 0px;
     justify-content: center;
@@ -132,7 +136,7 @@
 
   .section_fonctionnement {
     width: 100%;
-    height: 220px;
+    height: 11em;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -164,11 +168,11 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 15px;
-    padding-left: 50px;
+    padding-left: 4.9%;
+    gap: 7px;
     font-size: 23px;
     background-color: #f6f6f6;
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
     -webkit-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
     -moz-box-shadow: 11px 12px 12px -4px rgba(0, 0, 0, 0.09);
@@ -177,9 +181,9 @@
   .numérotation {
     display: flex;
     justify-content: space-around;
-    width: 25px;
+    width: 22px;
     border-radius: 50px;
-    height: 25px;
+    height: 22px;
     font-size: 17px;
     background: #9356dc;
     border-style: none;
@@ -191,17 +195,17 @@
 
   .fa-solid.fa-mobile-screen-button {
     color: gray;
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .fa-solid.fa-list-ul {
     color: gray;
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .fa-solid.fa-store {
     color: #9356dc;
-    font-size: 17px;
+    font-size: 16px;
   }
 
   /*section restaurant*/
@@ -237,7 +241,7 @@
 
   .Posi_Abso {
     height: 13%;
-    width: 18.5%;
+    width: 19.5%;
     display: flex;
     justify-content: center;
     font-size: 17px;
@@ -261,7 +265,7 @@
 
   .contenu_carte_restaurant-1 {
     display: flex;
-    width: 50%;
+    width: 60%;
     flex-direction: column;
     gap: 5px;
     padding: 1.5% 0px 0px 3%;
@@ -269,7 +273,7 @@
 
   .contenu_carte_restaurant-2 {
     display: flex;
-    width: 50%;
+    width: 40%;
     padding: 2.5% 3.5% 0px 0px;
     justify-content: flex-end;
   }
@@ -314,7 +318,7 @@
     height: 100px;
     color: #ffffff;
     font-size: 20px;
-    padding: 2% 0px 0px 3%;
+    padding: 2% 0px 0px 0%;
     margin: 0px 0px 0px 0px;
     display: flex;
     flex-direction: row-reverse;
@@ -323,34 +327,113 @@
 
   .section_footer-1 {
     display: flex;
-    margin: 0px 10% 0% 0px;
+    margin: 0px 2% 0% 2%;
+  }
+
+  .fa-solid.fa-utensils {
+    font-size: 16px;
   }
 
   .section_footer-2 {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 7px;
     margin: 0px 0px;
+    width: 26%;
+  }
+
+  .fa-solid.fa-handshake-angle {
+    font-size: 16px;
   }
 
   .section_footer-3 {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 6px;
     margin: 0px;
-    padding: 0px 5% 0px 0px;
+    padding: 0px 1% 0px 0px;
+    width: 24%;
+    flex-wrap: nowrap;
   }
 
   .section_footer-p {
-    margin: 8px 0px 8px 0px;
+    margin: 8px 0% 8px 0px;
+    display: flex;
+    flex-wrap: nowrap;
   }
 
   .section_footer-reverse {
     display: flex;
-    row-gap: 10px;
     align-items: center;
-    justify-content: space-between;
-    width: 65%;
-    padding: 0px 5% 0px 0px;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 2%;
+    column-gap: 20px;
+  }
+}
+
+/* Adaptation */
+
+@media screen and (max-width: 920px) {
+  .section_footer-2 {
+    width: 27%;
+  }
+
+  .section_footer-3 {
+    width: 24%;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .h2_espace {
+    padding-left: 4%;
+  }
+
+  .troisieme_div {
+    gap: 15px;
+  }
+
+  .div_fonction {
+    gap: 5px;
+    width: 24%;
+    padding-left: 6%;
+  }
+
+  .numérotation {
+    width: 19px;
+    height: 19px;
+    font-size: 15px;
+  }
+
+  .fa-solid.fa-mobile-screen-button {
+    font-size: 14px;
+  }
+
+  .fa-solid.fa-list-ul {
+    font-size: 14px;
+  }
+
+  .fa-solid.fa-store {
+    font-size: 14px;
+  }
+
+  .div_restaurant {
+    column-gap: 11%;
+  }
+
+  .Posi_Abso {
+    width: 20.5%;
+    height: 12%;
+  }
+
+  .Posi_Abso-p {
+    font-size: 15px;
+  }
+  .section_footer-2 {
+    width: 31%;
+  }
+
+  .section_footer-3 {
+    width: 26%;
   }
 }
