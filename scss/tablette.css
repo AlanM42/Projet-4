@@ -316,7 +316,10 @@
   }
 }
 /* Adaptation */
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 920px) and (min-width: 768px) {
+  .div_restaurant {
+    row-gap: 60px;
+  }
   .section_footer-2 {
     width: 27%;
   }
@@ -324,7 +327,7 @@
     width: 24%;
   }
 }
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 870px) and (min-width: 768px) {
   .h2_espace {
     padding-left: 4%;
   }
@@ -332,9 +335,10 @@
     gap: 15px;
   }
   .div_fonction {
-    gap: 5px;
-    width: 24%;
-    padding-left: 6%;
+    gap: 6px;
+    width: 23.5%;
+    padding-left: 5.5%;
+    margin-bottom: 1px;
   }
   .numérotation {
     width: 19px;
@@ -353,6 +357,10 @@
   .div_restaurant {
     -moz-column-gap: 11%;
          column-gap: 11%;
+    row-gap: 50px;
+  }
+  .carte_restaurant {
+    height: 225px;
   }
   .Posi_Abso {
     width: 20.5%;

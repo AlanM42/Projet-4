@@ -248,7 +248,7 @@
     display: flex;
     flex-direction: column;
     flex-direction: row;
-    padding: 5% 0% 0% 0%;
+    padding: 4% 0% 0% 0%;
   }
   .contenu_carte_restaurant-1 {
     display: flex;
@@ -301,6 +301,9 @@
     display: flex;
     margin: 0px 0px 30px 0px;
     font-weight: 100;
+  }
+  .section_footer-reverse {
+    width: 100%;
   }
   .section_footer-2 {
     display: flex;
@@ -430,7 +433,7 @@
     display: flex;
     flex-direction: column;
     width: 90%;
-    height: 27em;
+    height: 24em;
     background-color: white;
     border-radius: 25px;
     position: relative;
@@ -461,7 +464,7 @@
     background-color: #353535;
     color: #ffffff;
     font-size: 31px;
-    padding: 40px 0px 30px 30px;
+    padding: 4% 0px 3% 3%;
     margin: 0px 0px 0px 0px;
   }
 }
@@ -597,14 +600,21 @@
     font-family: "Roboto", sans-serif;
     font-size: 23px;
   }
+  .contenu_carte_restaurant {
+    padding-top: 3%;
+  }
   .carte_restaurant {
     display: flex;
     flex-direction: column;
     width: 90%;
-    height: 22em;
+    height: 20em;
     background-color: white;
-    border-radius: 25px;
+    border-radius: 20px;
     position: relative;
+  }
+  img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
   }
   .ancrage_gras {
     font-size: 25px;
@@ -628,7 +638,7 @@
     background-color: #353535;
     color: #ffffff;
     font-size: 28px;
-    padding: 40px 0px 30px 30px;
+    padding: 4% 0px 3% 3%;
     margin: 0px 0px 0px 0px;
   }
 }
@@ -768,10 +778,14 @@
     display: flex;
     flex-direction: column;
     width: 90%;
-    height: 22em;
+    height: 17em;
     background-color: white;
-    border-radius: 25px;
+    border-radius: 20px;
     position: relative;
+  }
+  img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
   }
   .ancrage_gras {
     font-size: 24px;
@@ -800,7 +814,7 @@
     background-color: #353535;
     color: #ffffff;
     font-size: 25px;
-    padding: 40px 0px 30px 30px;
+    padding: 4% 0px 3% 3%;
     margin: 0px 0px 0px 0px;
   }
 }
@@ -940,10 +954,14 @@
     display: flex;
     flex-direction: column;
     width: 90%;
-    height: 19em;
+    height: 15em;
     background-color: white;
-    border-radius: 25px;
+    border-radius: 15px;
     position: relative;
+  }
+  img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
   }
   .ancrage_gras {
     font-size: 21px;
@@ -955,12 +973,12 @@
     font-size: 20px;
   }
   .fa-regular.fa-heart {
-    font-size: 31px;
+    font-size: 28px;
     color: rgb(231, 114, 218);
     background-color: linear-gradient(180deg, rgb(231, 114, 218) 0%, rgb(177, 95, 221) 60%);
   }
   .fa-solid.fa-heart {
-    font-size: 31px;
+    font-size: 28px;
     color: rgb(231, 114, 218);
   }
   h6 {
@@ -972,8 +990,14 @@
     background-color: #353535;
     color: #ffffff;
     font-size: 22px;
-    padding: 40px 0px 30px 30px;
+    padding: 3.5% 0px 2.5% 4.5%;
     margin: 0px 0px 0px 0px;
+  }
+  .section_footer-2 {
+    gap: 27px;
+  }
+  .section_footer-3 {
+    gap: 18px;
   }
 }
 @media screen and (max-width: 375px) {
@@ -1182,10 +1206,14 @@
     display: flex;
     flex-direction: column;
     width: 90%;
-    height: 17em;
+    height: 13em;
     background-color: white;
-    border-radius: 15px;
+    border-radius: 10px;
     position: relative;
+  }
+  img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
   }
   .Posi_Abso {
     height: 14%;
@@ -1202,15 +1230,6 @@
     margin: 4% 0px 0px 74%;
     border-radius: 5px;
   }
-  .carte_restaurant {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    height: 17em;
-    background-color: white;
-    border-radius: 25px;
-    position: relative;
-  }
   .ancrage_gras {
     font-size: 19px;
     font-weight: bold;
@@ -1221,12 +1240,12 @@
     font-size: 18px;
   }
   .fa-regular.fa-heart {
-    font-size: 29px;
+    font-size: 26px;
     color: rgb(231, 114, 218);
     background-color: linear-gradient(180deg, rgb(231, 114, 218) 0%, rgb(177, 95, 221) 60%);
   }
   .fa-solid.fa-heart {
-    font-size: 29px;
+    font-size: 26px;
     color: rgb(231, 114, 218);
   }
   h6 {
@@ -1238,7 +1257,7 @@
     background-color: #353535;
     color: #ffffff;
     font-size: 20px;
-    padding: 40px 0px 30px 30px;
+    padding: 3.5% 0px 2.5% 4.5%;
     margin: 0px 0px 0px 0px;
   }
 }/*# sourceMappingURL=mobile.css.map */

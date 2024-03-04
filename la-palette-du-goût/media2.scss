@@ -223,8 +223,6 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    position: relative;
-    z-index: 1;
   }
 
   .section_footer-1 {
@@ -284,6 +282,16 @@
   p {
     font-size: 25px;
   }
+
+  .section_footer-reverse {
+    width: 52%;
+  }
+}
+
+@media screen and (max-width: 1520px) {
+  .section_footer-reverse {
+    width: 55%;
+  }
 }
 
 @media screen and (max-width: 1420px) {
@@ -314,6 +322,16 @@
   button {
     height: 80px;
     font-size: 26px;
+  }
+
+  .section_footer-reverse {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1320px) {
+  .section_footer-reverse {
+    width: 65%;
   }
 }
 
