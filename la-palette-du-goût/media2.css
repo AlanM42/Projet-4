@@ -52,7 +52,7 @@
   }
   h6 {
     font-family: "Shrikhand", sans-serif;
-    font-size: 40px;
+    font-size: 25px;
     margin: 0;
   }
   img {
@@ -217,8 +217,8 @@
     row-gap: 20px;
     align-items: center;
     justify-content: space-evenly;
-    width: 50%;
-    padding: 0px 75px 0px 0px;
+    width: 62%;
+    padding: 0px 4% 0px 0px;
   }
 }
 /*Adaptation*/
@@ -239,12 +239,12 @@
     font-size: 25px;
   }
   .section_footer-reverse {
-    width: 52%;
+    width: 68%;
   }
 }
 @media screen and (max-width: 1520px) {
   .section_footer-reverse {
-    width: 55%;
+    width: 68%;
   }
 }
 @media screen and (max-width: 1420px) {
@@ -271,12 +271,12 @@
     font-size: 26px;
   }
   .section_footer-reverse {
-    width: 60%;
+    width: 70%;
   }
 }
 @media screen and (max-width: 1320px) {
   .section_footer-reverse {
-    width: 65%;
+    width: 75%;
   }
 }
 @media screen and (max-width: 1220px) {
@@ -309,5 +309,10 @@
   }
   .div_3 {
     padding-bottom: 7%;
+  }
+}
+@media screen and (max-width: 1220px) {
+  .section_footer-p {
+    font-size: 18px;
   }
 }/*# sourceMappingURL=media2.css.map */
