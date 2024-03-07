@@ -50,7 +50,7 @@
   }
   h6 {
     font-family: "Shrikhand", sans-serif;
-    font-size: 40px;
+    font-size: 32px;
     margin: 0;
   }
   img {
@@ -275,11 +275,6 @@
   .fa-regular.fa-heart {
     font-size: 45px;
     color: rgb(231, 114, 218);
-    /*background-color: linear-gradient(
-      180deg,
-      rgba(231, 114, 218, 1) 0%,
-      rgba(177, 95, 221, 1) 60%
-    );*/
   }
   .fa-solid.fa-heart {
     font-size: 45px;
@@ -307,18 +302,24 @@
   }
   .section_footer-2 {
     display: flex;
-    align-items: center;
-    gap: 32px;
+    align-items: baseline;
+    gap: 25px;
     margin: 0px 0px;
   }
   .section_footer-3 {
     display: flex;
-    align-items: center;
-    gap: 20px;
+    align-items: baseline;
+    gap: 15px;
     margin: 0px;
   }
   .section_footer-p {
     margin: 8px 0px 0px 0px;
+  }
+  .fa-solid.fa-utensils {
+    font-size: 25px;
+  }
+  .fa-solid.fa-handshake-angle {
+    font-size: 25px;
   }
 }
 /*Adaptation*/

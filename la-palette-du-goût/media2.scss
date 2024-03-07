@@ -262,7 +262,7 @@
 
 /*Adaptation*/
 
-@media screen and (max-width: 1620px) {
+@media screen and (max-width: 1620px) and (min-width: 1521px) {
   h1 {
     font-size: 45px;
   }
@@ -288,13 +288,13 @@
   }
 }
 
-@media screen and (max-width: 1520px) {
+@media screen and (max-width: 1520px) and (min-width: 1421px) {
   .section_footer-reverse {
     width: 68%;
   }
 }
 
-@media screen and (max-width: 1420px) {
+@media screen and (max-width: 1420px) and (min-width: 1321px) {
   .h1_titre {
     font-size: 42px;
   }
@@ -329,13 +329,13 @@
   }
 }
 
-@media screen and (max-width: 1320px) {
+@media screen and (max-width: 1320px) and (min-width: 1221px) {
   .section_footer-reverse {
     width: 75%;
   }
 }
 
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1220px) and (min-width: 1025px) {
   .h1_titre {
     font-size: 42px;
   }
@@ -374,9 +374,7 @@
   .div_3 {
     padding-bottom: 7%;
   }
-}
 
-@media screen and (max-width: 1220px) {
   .section_footer-p {
     font-size: 18px;
   }
