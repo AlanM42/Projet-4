@@ -330,6 +330,49 @@
 }
 
 @media screen and (max-width: 1320px) and (min-width: 1221px) {
+  .h1_titre {
+    font-size: 42px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .fa-regular.fa-heart {
+    font-size: 38px;
+  }
+
+  .p-1 {
+    font-size: 27px;
+  }
+
+  p {
+    font-size: 23px;
+  }
+
+  button {
+    height: 70px;
+    font-size: 23px;
+    width: 22%;
+  }
+
+  .div_1 {
+    height: 3em;
+    border-radius: 25px;
+  }
+
+  .div_3 {
+    padding-bottom: 7%;
+  }
+
+  .section_footer-p {
+    font-size: 18px;
+  }
+
   .section_footer-reverse {
     width: 75%;
   }
@@ -377,5 +420,9 @@
 
   .section_footer-p {
     font-size: 18px;
+  }
+
+  .section_footer-reverse {
+    width: 75%;
   }
 }
