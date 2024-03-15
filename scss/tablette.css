@@ -249,18 +249,8 @@
   .fa-regular.fa-heart {
     font-size: 25px;
   }
-  .fa-regular.fa-heart {
-    font-size: 25px;
-    color: rgb(231, 114, 218);
-    background-color: linear-gradient(180deg, rgb(231, 114, 218) 0%, rgb(177, 95, 221) 60%);
-  }
   .fa-solid.fa-heart {
     font-size: 25px;
-  }
-  .fa-solid.fa-heart {
-    font-size: 25px;
-    color: rgb(231, 114, 218);
-    background-color: linear-gradient(180deg, rgb(231, 114, 218) 0%, rgb(177, 95, 221) 60%);
   }
   /*Section Footer*/
   .section_footer {

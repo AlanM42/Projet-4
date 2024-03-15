@@ -333,14 +333,14 @@
     background-color: #353535;
     color: #ffffff;
     font-size: 29px;
-    padding: 5.7% 0px 4.3% 4.3%;
+    padding: 5% 0px 4.3% 4.3%;
     margin: 0px 0px 0px 0px;
     width: auto;
   }
 
   .section_footer-1 {
     display: flex;
-    margin: 0px 0px 30px 0px;
+    margin: 0px 0px 3% 0px;
     font-weight: 100;
   }
 
@@ -351,14 +351,14 @@
   .section_footer-2 {
     display: flex;
     align-items: baseline;
-    gap: 25px;
+    gap: 20px;
     margin: 0px 0px;
   }
 
   .section_footer-3 {
     display: flex;
     align-items: baseline;
-    gap: 15px;
+    gap: 10px;
     margin: 0px;
   }
 
@@ -367,11 +367,11 @@
   }
 
   .fa-solid.fa-utensils {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .fa-solid.fa-handshake-angle {
-    font-size: 25px;
+    font-size: 22px;
   }
 }
 
@@ -544,6 +544,14 @@
     font-size: 31px;
     padding: 4% 0px 3% 3%;
     margin: 0px 0px 0px 0px;
+  }
+
+  .fa-solid.fa-utensils {
+    font-size: 20px;
+  }
+
+  .fa-solid.fa-handshake-angle {
+    font-size: 20px;
   }
 }
 
@@ -750,6 +758,22 @@
     padding: 4% 0px 3% 3%;
     margin: 0px 0px 0px 0px;
   }
+
+  h6 {
+    font-size: 29px;
+  }
+
+  .section_footer-2 {
+    gap: 16px;
+  }
+
+  .fa-solid.fa-handshake-angle {
+    font-size: 18px;
+  }
+
+  .fa-solid.fa-utensils {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -942,12 +966,6 @@
   .fa-solid.fa-heart {
     font-size: 33px;
     color: rgb(231, 114, 218);
-  }
-
-  h6 {
-    font-family: "Shrikhand", sans-serif;
-    font-size: 35px;
-    margin: 0;
   }
 
   .section_footer {
@@ -1153,7 +1171,7 @@
 
   h6 {
     font-family: "Shrikhand", sans-serif;
-    font-size: 33px;
+    font-size: 27px;
     margin: 0;
   }
 
@@ -1166,11 +1184,11 @@
   }
 
   .section_footer-2 {
-    gap: 27px;
+    gap: 17px;
   }
 
   .section_footer-3 {
-    gap: 18px;
+    gap: 10px;
   }
 }
 
@@ -1463,17 +1481,15 @@
     color: rgb(231, 114, 218);
   }
 
-  h6 {
-    font-family: "Shrikhand", sans-serif;
-    font-size: 33px;
-    margin: 0;
-  }
-
   .section_footer {
     background-color: #353535;
     color: #ffffff;
     font-size: 20px;
     padding: 3.5% 0px 2.5% 4.5%;
     margin: 0px 0px 0px 0px;
+  }
+
+  h6 {
+    font-size: 25px;
   }
 }

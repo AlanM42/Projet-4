@@ -244,16 +244,8 @@
   .fa-regular.fa-heart {
     font-size: 32px;
   }
-  .fa-regular.fa-heart {
-    font-size: 32px;
-    color: rgb(231, 114, 218);
-  }
   .fa-solid.fa-heart {
     font-size: 32px;
-  }
-  .fa-solid.fa-heart {
-    font-size: 32px;
-    color: rgb(231, 114, 218);
   }
   /*Section Footer*/
   .section_footer {
@@ -466,14 +458,6 @@
   }
   .fa-regular.fa-heart {
     font-size: 26px;
-    color: rgb(231, 114, 218);
-  }
-  .fa-solid.fa-heart {
-    font-size: 26px;
-  }
-  .fa-solid.fa-heart {
-    font-size: 26px;
-    color: rgb(231, 114, 218);
   }
   .ancrage_gras {
     font-size: 21px;
@@ -518,14 +502,12 @@
   }
   .fa-regular.fa-heart {
     font-size: 23px;
-    color: rgb(231, 114, 218);
   }
   .fa-solid.fa-heart {
     font-size: 23px;
   }
   .fa-solid.fa-heart {
     font-size: 23px;
-    color: rgb(231, 114, 218);
   }
   .carte_restaurant {
     height: 280px;
@@ -567,14 +549,9 @@
   }
   .fa-regular.fa-heart {
     font-size: 22px;
-    color: rgb(231, 114, 218);
   }
   .fa-solid.fa-heart {
     font-size: 22px;
-  }
-  .fa-solid.fa-heart {
-    font-size: 22px;
-    color: rgb(231, 114, 218);
   }
   .Posi_Abso {
     width: 20%;

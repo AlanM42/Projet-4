@@ -173,7 +173,7 @@
     background-color: #353535;
     color: #ffffff;
     font-size: 29px;
-    padding: 5.7% 0px 4.3% 4.3%;
+    padding: 5% 0px 4.3% 4.3%;
     margin: 0px 0px 0px 0px;
     width: auto;
   }
@@ -236,9 +236,6 @@
   .section_footer {
     padding-top: 5%;
   }
-  .section_footer-1 {
-    padding-top: 5%;
-  }
   .fa-regular.fa-heart {
     font-size: 42px;
   }
@@ -281,6 +278,24 @@
     font-size: 5px;
     justify-content: flex-end;
     align-items: flex-end;
+  }
+  .section_footer-2 {
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+    margin: 0px 0px;
+  }
+  .section_footer-3 {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin: 0px;
+  }
+  .fa-solid.fa-handshake-angle {
+    font-size: 20px;
+  }
+  .fa-solid.fa-utensils {
+    font-size: 20px;
   }
 }
 /*Régler les détailles à partir de 620px*/
@@ -327,6 +342,9 @@
     padding-bottom: 0%;
     margin: 0px 0px 0px 3%;
     font-weight: 100;
+  }
+  h6 {
+    font-size: 28px;
   }
   .fa-regular.fa-heart {
     font-size: 40px;
@@ -510,6 +528,12 @@
     padding-bottom: 0%;
     margin: 0px 0px 0px 3%;
     font-weight: 100;
+  }
+  .fa-solid.fa-handshake-angle {
+    font-size: 18px;
+  }
+  .fa-solid.fa-utensils {
+    font-size: 18px;
   }
   .fa-regular.fa-heart {
     font-size: 30px;
@@ -869,7 +893,7 @@
     display: flex;
     width: 10%;
     height: 100%;
-    padding: 0% 2.9% 10% 0%;
+    padding: 0% 2.9% 12% 0%;
     font-size: 5px;
     justify-content: flex-end;
     align-items: flex-end;

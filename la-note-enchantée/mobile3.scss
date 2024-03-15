@@ -76,6 +76,8 @@
     object-fit: cover;
     position: relative;
     z-index: -1;
+    clip-path: inset(25% 0%);
+    margin: -30% 0% 0% 0%;
   }
 
   p {
@@ -130,7 +132,7 @@
     display: flex;
     background-color: #f6f6f6;
     flex-direction: column;
-    margin: -10% auto 0px auto;
+    margin: -36% auto 0px auto;
     border-top-right-radius: 2.5em;
     border-top-left-radius: 2.5em;
     z-index: 2;
