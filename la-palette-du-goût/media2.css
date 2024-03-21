@@ -134,6 +134,29 @@
   .fa-regular.fa-heart {
     font-size: 45px;
   }
+  .heart-full {
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    color: transparent;
+    -webkit-background-clip: text;
+            background-clip: text;
+    background-image: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+  }
+  .heart-full:hover {
+    opacity: 1;
+  }
+  .heart-full-card {
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    color: transparent;
+    -webkit-background-clip: text;
+            background-clip: text;
+    background-image: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+  }
+  .heart-full-card:hover {
+    opacity: 1;
+  }
   /*Menu*/
   .div_0 {
     display: flex;

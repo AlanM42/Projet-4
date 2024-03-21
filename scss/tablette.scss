@@ -291,6 +291,37 @@
     font-size: 25px;
   }
 
+  .fa-regular.fa-heart {
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(
+      193.33deg,
+      #9356dc -11.44%,
+      #ff79da 123.93%
+    );
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  .fa-solid.fa-heart {
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(
+      193.33deg,
+      #9356dc -11.44%,
+      #ff79da 123.93%
+    );
+    &:hover {
+      opacity: 1;
+    }
+  }
+
   /*Section Footer*/
 
   .section_footer {
