@@ -33,6 +33,10 @@
     justify-content: center;
     align-items: center;
   }
+  button:hover {
+    background-image: linear-gradient(179deg, rgb(252, 132, 218) -11.44%, rgb(155, 99, 223) 123.93%);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+  }
   h1 {
     font-family: "Shrikhand", sans-serif;
     display: flex;
@@ -193,6 +197,52 @@
     display: flex;
     width: 100%;
     justify-content: center;
+  }
+  .carte__menu {
+    animation: fondu 1s forwards;
+    opacity: 0;
+  }
+  .carte__menu__entree {
+    animation-delay: 0.5s;
+  }
+  .carte__menu__plat {
+    animation-delay: 1.5s;
+  }
+  .carte__menu__dessert {
+    animation-delay: 2.5s;
+  }
+  @keyframes fondu {
+    from {
+      opacity: 0;
+      transform: scale(0);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  .container__plat {
+    animation: swipe 1s forwards;
+    opacity: 0;
+  }
+  .container__plat__start {
+    animation-delay: 0.5s;
+  }
+  .container__plat__middle {
+    animation-delay: 1.5s;
+  }
+  .container__plat__end {
+    animation-delay: 2.5s;
+  }
+  @keyframes swipe {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
   }
   /*Footer*/
   .section_footer {
