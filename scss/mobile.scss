@@ -40,8 +40,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: $loader-size;
-    height: $loader-size;
+
     flex-wrap: wrap;
 
     .loader-dot {
@@ -50,7 +49,7 @@
       margin: 0;
       border-radius: 100%;
       background-color: #9356dc;
-      animation: three $animation-duration infinite ease-in-out both;
+
       animation-delay: 0ms;
 
       &__2 {
@@ -129,6 +128,11 @@
     font-family: "Roboto", sans-serif;
     font-size: 40px;
     width: 50%;
+  }
+
+  h3 {
+    margin: 0 !important;
+    padding: 0 !important;
   }
 
   h6 {
