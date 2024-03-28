@@ -192,6 +192,28 @@
     font-size: 5px;
     justify-content: flex-end;
     align-items: flex-end;
+    transition: all 0.5s ease-out;
+  }
+  .div_4 {
+    opacity: 1;
+    background-color: #99e2d0;
+    width: 59px;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 30px 30px 0px;
+    position: absolute;
+    bottom: 0;
+    right: -60px;
+    transition: margin-right 0.5s ease-out;
+  }
+  .div_4 i {
+    color: white;
+    font-size: 22px;
+  }
+  .div_1:hover .div_4 {
+    margin-right: 60px;
   }
   .bouton-centre {
     display: flex;
