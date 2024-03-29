@@ -261,6 +261,14 @@
     margin-right: 60px;
   }
 
+  .div_3 {
+    transition: all 0.5s ease-out;
+  }
+
+  .div_1:hover .div_3 {
+    transform: translateX(-60px);
+  }
+
   .bouton-centre {
     display: flex;
     width: 100%;
