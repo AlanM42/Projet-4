@@ -229,6 +229,7 @@
   .carte__menu {
     animation: fondu 1s forwards;
     opacity: 0;
+    overflow: hidden;
   }
   .carte__menu__entree {
     animation-delay: 0.5s;

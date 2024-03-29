@@ -278,6 +278,7 @@
   .carte__menu {
     animation: fondu 1s forwards;
     opacity: 0;
+    overflow: hidden;
     &__entree {
       animation-delay: 0.5s;
     }
