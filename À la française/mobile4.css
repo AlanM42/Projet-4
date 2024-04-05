@@ -33,6 +33,10 @@
     justify-content: center;
     align-items: center;
   }
+  button:hover {
+    background-image: linear-gradient(179deg, rgb(252, 132, 218) -11.44%, rgb(155, 99, 223) 123.93%);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+  }
   h1 {
     font-family: "Shrikhand", sans-serif;
     display: flex;
@@ -124,7 +128,38 @@
   }
   /*Logo cœur*/
   .fa-regular.fa-heart {
+    transition: all 0.5s ease-in-out;
+    color: transparent;
+    -webkit-background-clip: text;
+            background-clip: text;
+    background-color: black;
+  }
+  .fa-regular.fa-heart:hover {
+    opacity: 1;
+  }
+  .fa-solid.fa-heart {
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    color: transparent;
+    -webkit-background-clip: text;
+            background-clip: text;
+    background-image: linear-gradient(193.33deg, #9356dc -11.44%, #ff79da 123.93%);
+  }
+  .fa-solid.fa-heart:hover {
+    opacity: 1;
+  }
+  .fa-regular.fa-heart {
     font-size: 45px;
+  }
+  .fa-solid.fa-heart {
+    font-size: 46.5px;
+  }
+  .contenu_carte_restaurant-2 {
+    display: flex;
+    width: 20%;
+    padding: 0% 6% 0% 0%;
+    justify-content: flex-end;
   }
   /*Menu*/
   .div_0 {
@@ -162,11 +197,85 @@
     font-size: 5px;
     justify-content: flex-end;
     align-items: flex-end;
+    transition: all 0.5s ease-out;
+  }
+  .div_4 {
+    opacity: 1;
+    background-color: #99e2d0;
+    width: 59px;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    right: -60px;
+    transition: margin-right 0.5s ease-out;
+  }
+  .div_4 i {
+    color: white;
+    font-size: 22px;
+  }
+  .div_1:hover .div_4 {
+    margin-right: 60px;
+  }
+  .div_3 {
+    transition: all 0.5s ease-out;
+  }
+  .div_1:hover .div_3 {
+    transform: translateX(-60px);
   }
   .bouton-centre {
     display: flex;
     width: 100%;
     justify-content: center;
+  }
+  .carte__menu {
+    animation: fondu 1s forwards;
+    opacity: 0;
+    overflow: hidden;
+  }
+  .carte__menu__entree {
+    animation-delay: 0.5s;
+  }
+  .carte__menu__plat {
+    animation-delay: 1.5s;
+  }
+  .carte__menu__dessert {
+    animation-delay: 2.5s;
+  }
+  @keyframes fondu {
+    from {
+      opacity: 0;
+      transform: scale(0);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  .container__plat {
+    animation: swipe 1s forwards;
+    opacity: 0;
+  }
+  .container__plat__start {
+    animation-delay: 0.5s;
+  }
+  .container__plat__middle {
+    animation-delay: 1.5s;
+  }
+  .container__plat__end {
+    animation-delay: 2.5s;
+  }
+  @keyframes swipe {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
   }
   /*Footer*/
   .section_footer {
@@ -235,6 +344,9 @@
   }
   .section_footer {
     padding-top: 5%;
+  }
+  .fa-solid.fa-heart {
+    font-size: 43.5px;
   }
   .fa-regular.fa-heart {
     font-size: 42px;
@@ -328,7 +440,7 @@
     font-family: "Shrikhand", sans-serif;
     display: flex;
     width: 75%;
-    font-size: 36px;
+    font-size: 33px;
     padding: 3% 0px 1.5% 0px;
     margin: 0;
     justify-content: space-around;
@@ -345,6 +457,9 @@
   }
   h6 {
     font-size: 28px;
+  }
+  .fa-solid.fa-heart {
+    font-size: 41.5px;
   }
   .fa-regular.fa-heart {
     font-size: 40px;
@@ -389,17 +504,23 @@
     justify-content: flex-end;
     align-items: flex-end;
   }
+  .div_4 i {
+    margin-top: 15%;
+  }
 }
 @media screen and (max-width: 525px) {
   h1 {
     font-family: "Shrikhand", sans-serif;
     display: flex;
     width: 75%;
-    font-size: 35px;
+    font-size: 31px;
     padding: 3% 0px 1.5% 0px;
     margin: 0;
     justify-content: space-around;
     letter-spacing: 2px;
+  }
+  .fa-solid.fa-heart {
+    font-size: 36.5px;
   }
   .fa-regular.fa-heart {
     font-size: 35px;
@@ -423,7 +544,7 @@
     font-family: "Shrikhand", sans-serif;
     display: flex;
     width: 75%;
-    font-size: 31px;
+    font-size: 27px;
     padding: 3% 0px 1.5% 0px;
     margin: 0;
     justify-content: space-around;
@@ -437,6 +558,9 @@
     padding-bottom: 0%;
     margin: 0px 0px 0px 3%;
     font-weight: 100;
+  }
+  .fa-solid.fa-heart {
+    font-size: 34.5px;
   }
   .fa-regular.fa-heart {
     font-size: 33px;
@@ -481,6 +605,9 @@
     justify-content: flex-end;
     align-items: flex-end;
   }
+  .div_4 i {
+    margin-top: 50%;
+  }
   button {
     display: flex;
     width: 50%;
@@ -514,7 +641,7 @@
     font-family: "Shrikhand", sans-serif;
     display: flex;
     width: 75%;
-    font-size: 28px;
+    font-size: 25px;
     padding: 3% 0px 1.5% 0px;
     margin: 0;
     justify-content: space-around;
@@ -534,6 +661,9 @@
   }
   .fa-solid.fa-utensils {
     font-size: 18px;
+  }
+  .fa-solid.fa-heart {
+    font-size: 31.5px;
   }
   .fa-regular.fa-heart {
     font-size: 30px;
@@ -583,6 +713,9 @@
     font-size: 5px;
     justify-content: flex-end;
     align-items: flex-end;
+  }
+  .div_4 i {
+    margin-top: 80%;
   }
   button {
     display: flex;
@@ -637,6 +770,9 @@
     margin: 0px 0px 0px 3%;
     font-weight: 100;
   }
+  .fa-solid.fa-heart {
+    font-size: 26.5px;
+  }
   .fa-regular.fa-heart {
     font-size: 25px;
   }
@@ -686,6 +822,9 @@
     justify-content: flex-end;
     align-items: flex-end;
   }
+  .div_4 i {
+    margin-top: 90%;
+  }
   button {
     display: flex;
     width: 50%;
@@ -728,7 +867,7 @@
     font-family: "Shrikhand", sans-serif;
     display: flex;
     width: 75%;
-    font-size: 23px;
+    font-size: 21px;
     padding: 3% 0px 1.5% 0px;
     margin: 0;
     justify-content: space-around;
@@ -742,6 +881,9 @@
     padding-bottom: 0%;
     margin: 0px 0px 0px 3%;
     font-weight: 100;
+  }
+  .fa-solid.fa-heart {
+    font-size: 24.5px;
   }
   .fa-regular.fa-heart {
     font-size: 23px;
@@ -792,6 +934,9 @@
     justify-content: flex-end;
     align-items: flex-end;
   }
+  .div_4 i {
+    margin-top: 100%;
+  }
   button {
     display: flex;
     width: 50%;
@@ -834,7 +979,7 @@
     font-family: "Shrikhand", sans-serif;
     display: flex;
     width: 75%;
-    font-size: 20px;
+    font-size: 18px;
     padding: 3% 0px 1.5% 0px;
     margin: 0;
     justify-content: space-around;
@@ -848,6 +993,9 @@
     padding-bottom: 0%;
     margin: 0px 0px 0px 3%;
     font-weight: 100;
+  }
+  .fa-solid.fa-heart {
+    font-size: 21.5px;
   }
   .fa-regular.fa-heart {
     font-size: 20px;
