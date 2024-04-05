@@ -5,7 +5,8 @@
     margin: 0;
     padding: 0;
   }
-  /*Test*/
+
+  /*Loader*/
 
   .loader {
     position: fixed;
@@ -13,7 +14,7 @@
     z-index: 2;
     background-color: #fff;
     opacity: 0.9;
-    animation: disappear 0s 3s forwards;
+    animation: disappear 0s 1.5s forwards;
     display: grid;
     place-items: center;
 
@@ -21,9 +22,10 @@
       width: 100%;
       text-align: center;
       font-family: sans-serif;
-      font-weight: bold;
-      font-size: 15px;
+      font-weight: 100;
+      font-size: 35px;
       color: #353535;
+      font-family: "Roboto", sans-serif;
     }
   }
 
@@ -53,11 +55,11 @@
       animation-delay: 0ms;
 
       &__2 {
-        animation-delay: 225ms;
+        animation-delay: 175ms;
       }
 
       &__3 {
-        animation-delay: 450ms;
+        animation-delay: 250ms;
       }
     }
   }
@@ -72,8 +74,6 @@
       transform: scale(1);
     }
   }
-
-  /*Test*/
 
   /*Géneral*/
 
@@ -112,6 +112,14 @@
     color: white;
     margin: 2.7% 0% 2.7% 0%;
     padding: 3.5% 0% 3.5% 0%;
+    &:hover {
+      background-image: linear-gradient(
+        179deg,
+        rgb(252, 132, 218) -11.44%,
+        rgb(155, 99, 223) 123.93%
+      );
+      box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+    }
   }
 
   h1 {
@@ -165,25 +173,6 @@
   }
 
   /*Animation*/
-
-  /* .fa-solid.fa-spinner 
-
-  .chargement {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .loader {
-    width: 100%;
-    height: 100vh;
-    background-color: black;
-    z-index: 5;
-    position: fixed;
-    top: 0;
-    opacity: 0.6;
-  } */
 
   /*Section premiere*/
 

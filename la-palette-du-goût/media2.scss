@@ -40,6 +40,14 @@
     margin: 0% 0px 4% 0px;
     justify-content: center;
     align-items: center;
+    &:hover {
+      background-image: linear-gradient(
+        179deg,
+        rgb(252, 132, 218) -11.44%,
+        rgb(155, 99, 223) 123.93%
+      );
+      box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+    }
   }
 
   h1 {
@@ -150,32 +158,23 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 6% 0% 5% 0%;
+    padding: 6% 0% 5% 7.5%;
     gap: 4%;
   }
 
   /*Logo cœur*/
 
   .fa-regular.fa-heart {
-    font-size: 45px;
-  }
-
-  .heart-full {
-    opacity: 0;
     transition: all 0.5s ease-in-out;
     color: transparent;
     background-clip: text;
-    background-image: linear-gradient(
-      193.33deg,
-      #9356dc -11.44%,
-      #ff79da 123.93%
-    );
+    background-color: black;
     &:hover {
       opacity: 1;
     }
   }
 
-  .heart-full-card {
+  .fa-solid.fa-heart {
     opacity: 0;
     position: absolute;
     transition: all 0.5s ease-in-out;
@@ -189,6 +188,21 @@
     &:hover {
       opacity: 1;
     }
+  }
+
+  .fa-regular.fa-heart {
+    font-size: 45px;
+  }
+
+  .fa-solid.fa-heart {
+    font-size: 46.5px;
+  }
+
+  .contenu_carte_restaurant-2 {
+    display: flex;
+    width: 10%;
+    padding: 0% 6% 0% 0%;
+    justify-content: flex-end;
   }
 
   /*Menu*/
@@ -240,6 +254,94 @@
     display: flex;
     width: 100%;
     justify-content: center;
+  }
+
+  .div_4 {
+    opacity: 1;
+    background-color: #99e2d0;
+    width: 59px;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    right: -60px;
+    transition: margin-right 0.5s ease-out;
+  }
+
+  .div_4 i {
+    color: white;
+    font-size: 22px;
+  }
+
+  .div_1:hover .div_4 {
+    margin-right: 60px;
+  }
+
+  .div_3 {
+    transition: all 0.5s ease-out;
+  }
+
+  .div_1:hover .div_3 {
+    transform: translateX(-60px);
+  }
+
+  .bouton-centre {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .carte__menu {
+    animation: fondu 1s forwards;
+    opacity: 0;
+    overflow: hidden;
+    &__entree {
+      animation-delay: 0.5s;
+    }
+    &__plat {
+      animation-delay: 1.5s;
+    }
+    &__dessert {
+      animation-delay: 2.5s;
+    }
+  }
+
+  @keyframes fondu {
+    from {
+      opacity: 0;
+      transform: scale(0);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  .container__plat {
+    animation: swipe 1s forwards;
+    opacity: 0;
+    &__start {
+      animation-delay: 0.5s;
+    }
+    &__middle {
+      animation-delay: 1.5s;
+    }
+    &__end {
+      animation-delay: 2.5s;
+    }
+  }
+
+  @keyframes swipe {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
   }
 
   /*Footer*/
@@ -306,6 +408,10 @@
     font-size: 42px;
   }
 
+  .fa-solid.fa-heart {
+    font-size: 43.5px;
+  }
+
   .p-1 {
     font-size: 31px;
   }
@@ -340,6 +446,10 @@
 
   .fa-regular.fa-heart {
     font-size: 38px;
+  }
+
+  .fa-solid.fa-heart {
+    font-size: 39.5px;
   }
 
   .p-1 {
@@ -377,6 +487,10 @@
     font-size: 38px;
   }
 
+  .fa-solid.fa-heart {
+    font-size: 39.5px;
+  }
+
   .p-1 {
     font-size: 27px;
   }
@@ -406,6 +520,10 @@
 
   .section_footer-reverse {
     width: 75%;
+  }
+
+  .fa-solid.fa-circle-check {
+    padding-top: 60%;
   }
 }
 
@@ -426,6 +544,10 @@
     font-size: 38px;
   }
 
+  .fa-solid.fa-heart {
+    font-size: 39.5px;
+  }
+
   .p-1 {
     font-size: 27px;
   }
@@ -455,5 +577,9 @@
 
   .section_footer-reverse {
     width: 75%;
+  }
+
+  .fa-solid.fa-circle-check {
+    padding-top: 65%;
   }
 }
