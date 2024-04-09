@@ -226,6 +226,13 @@
     flex-direction: column;
     gap: 6px;
     padding: 0% 0% 0% 4%;
+
+    &__p-2 {
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      width: calc(100% - 80px);
+    }
   }
 
   .div_3 {

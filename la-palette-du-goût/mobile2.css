@@ -189,6 +189,12 @@
     gap: 6px;
     padding: 0% 0% 0% 4%;
   }
+  .div_2__p-2 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: calc(100% - 80px);
+  }
   .div_3 {
     display: flex;
     width: 20%;
