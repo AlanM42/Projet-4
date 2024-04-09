@@ -113,7 +113,7 @@
     display: flex;
     background-color: #f6f6f6;
     flex-direction: column;
-    margin: -22.5% auto 0px auto;
+    margin: -15.5% auto 0px auto;
     border-top-right-radius: 2.5em;
     border-top-left-radius: 2.5em;
     z-index: 2;
@@ -184,14 +184,14 @@
   }
   .div_2 {
     display: flex;
-    width: 90%;
+    width: 80%;
     flex-direction: column;
     gap: 6px;
     padding: 0% 0% 0% 4%;
   }
   .div_3 {
     display: flex;
-    width: 10%;
+    width: 20%;
     height: 100%;
     padding: 0% 4% 9% 0%;
     font-size: 5px;
