@@ -1,2 +1,0 @@
-responsive media et media2 + tablette et tablette2
-animation css

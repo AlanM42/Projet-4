@@ -1,3 +1,0 @@
-probleme des cœur du a l'animation + mauvaise couleur
-media2, mobile2 probleme pour rogner l'image
-mobile2, media2, ... le footer se retrouve en dessous, position absolute pour la div main

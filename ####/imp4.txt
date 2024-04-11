@@ -1,8 +1,0 @@
-div vide page d'acceuil class loader
-loader : height 100vh
-width 100%
-background opacité flou 0.7
-autre div a l'interieur
-texte chargement ou font awesome loader spin
-rajouter dans le css un key frame (animation) animista.com
-selectionner l'animation souhaité
